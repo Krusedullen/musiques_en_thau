@@ -6,7 +6,7 @@
     font-size: calc(10px + 2vmin);
     text-align: left;
     width: 100vw;
-    
+
     /*
     background-image: url("../Images/header-img1-edited.png");
     min-height: 20vh;
@@ -14,8 +14,8 @@
     justify-content: center;
     flex-direction: column;
     */
-    
-    
+
+
   }
 
   .logo {
@@ -26,5 +26,5 @@
   }
 
   @media (min-width: 1280px){
-        
+
   }
