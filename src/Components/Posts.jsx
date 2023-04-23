@@ -1,10 +1,10 @@
 import React from "react";
-import "./Posts.css";
+import "../../public/styles/layout/Posts.css";
 
 export default function Posts(props) {
   return (
-    <header className="Posts">
-      <h2>Posts</h2>
-    </header>
+    <div className="posts">
+      <h2 className="post-header">Posts</h2>
+    </div>
   );
 }
