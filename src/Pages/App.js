@@ -1,4 +1,4 @@
-import "../../public/styles/pages/App.css";
+import "../styles/pages/App.css";
 import Header from "../Components/MainHeader";
 import MediaTab from "../Components/MediaTab";
 import Posts from "../Components/Posts";
