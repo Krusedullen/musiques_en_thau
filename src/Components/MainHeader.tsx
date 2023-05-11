@@ -3,7 +3,7 @@ import logo from "../Images/Msign.png";
 import "../styles/layout/MainHeader.scss";
 import {figmaSkisse} from "../Utils";
 
-export default function Header(props) {
+export default function Header() {
   return (
     <header className="Main-header">
       <img className="logo" src={logo} alt="logo" />
