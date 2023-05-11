@@ -1,8 +1,8 @@
 .App-header {
-    background-color: #33708f;
-    background-repeat: no-repeat;
+    /* background-color: #33708f;
+    background-repeat: no-repeat; */
     background-size: cover;
-    color: #000000;
+    color: #D54000;
     font-size: calc(10px + 2vmin);
     text-align: left;
     width: 100vw;
@@ -25,6 +25,4 @@
     max-width: 15%;
   }
 
-  @media (min-width: 1280px){
-
-  }
+  
