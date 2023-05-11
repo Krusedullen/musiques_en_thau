@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../Images/Msign.png";
-import "../styles/layout/MainHeader.css";
+import "../styles/layout/MainHeader.scss";
 
 export default function Header(props) {
   return (
