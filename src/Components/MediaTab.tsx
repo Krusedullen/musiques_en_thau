@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/layout/MediaTab.scss";
 import Video from "./Video";
 
 export default function MediaTab(): JSX.Element {
