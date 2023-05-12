@@ -5,8 +5,8 @@ import {figmaSkisse} from "../Utils";
 export default function Header() {
   return (
     <header className="Main-header">
-      <img className="logo" src={logo} alt="logo" />
-      <nav className="menu">
+      <img className="Logo" src={logo} alt="logo" />
+      <nav className="Menu">
         <a href={figmaSkisse}> figma skisse </a>
       <a href="https://www.bt.no/">bt </a></nav>
     </header>

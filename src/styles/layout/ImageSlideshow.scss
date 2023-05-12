@@ -1,0 +1,13 @@
+.Image-Slideshow {
+    display: flex;
+    order: 3;
+    height: 20vh;
+    max-width: 100%;
+    padding: 1em;
+
+    //vi får spesifisere etterhvert hvordan bildet skal scale.
+    img {
+        object-fit: Image-Slideshow;
+        max-width: 100%;
+    }
+}

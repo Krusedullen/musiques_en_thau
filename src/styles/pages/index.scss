@@ -1,5 +1,7 @@
+//Utils
 @import "../variables";
-@import "./App", "../layout/MainHeader", "../layout/MediaTab", "../layout/Posts", "../layout/Video";
+//Styles
+@import "./App", "../layout/ArtistReel", "../layout/MainHeader", "../layout/ImageSlideshow", "../layout/Posts", "../layout/Video";
 
 body {
   margin: 0;
