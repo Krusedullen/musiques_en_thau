@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/layout/Video.scss";
 import Video1 from "../Videos/Video1.mp4";
 
 export default function Video(): JSX.Element {

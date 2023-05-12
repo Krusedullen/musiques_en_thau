@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../Images/Msign.png";
-import "../styles/layout/MainHeader.scss";
 import {figmaSkisse} from "../Utils";
 
 export default function Header() {

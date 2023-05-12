@@ -1,4 +1,3 @@
-import "../styles/pages/App.scss";
 import Header from "../Components/MainHeader";
 import MediaTab from "../Components/MediaTab";
 import Posts from "../Components/Posts";

@@ -10,6 +10,18 @@
     width: 100vw;
 
     nav {
+      a,
+        //de fleste statuser for a vil ha denne stylingen. fjernet a:active, men må kanskje ekskludere flere?
+        a:link,
+        a:visited,
+        a:focus,
+        a:hover {
+          color: #D54000;
+          text-decoration: none;
+          cursor: crosshair;
+      
+      
+        }
         gap: 1em;
         display: flex;
         justify-content: space-between;

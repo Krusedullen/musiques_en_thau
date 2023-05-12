@@ -1,4 +1,5 @@
-@import "../variables.scss";
+@import "../variables";
+@import "./App", "../layout/MainHeader", "../layout/MediaTab", "../layout/Posts", "../layout/Video";
 
 body {
   margin: 0;
