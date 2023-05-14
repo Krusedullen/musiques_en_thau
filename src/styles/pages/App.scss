@@ -1,25 +1,23 @@
 .App {
-  display: flex;
-    flex-flow: row wrap;
-  text-align: center;
-  height: fit-content;
+  height: 100vh;
   width: 100vw;
-
-  h2 {
-    color: $color-accent-medium;
-  }
-
   link {
     color: $color-accent-dark;
   }
-* {
-    flex: 1 100%;
+  .main-content {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
   }
-  
+  @media (min-width: 640px) {
+    .main-content {
+      margin: 0 auto;
+      max-width: 1024px;
+    }
+  }
+  @media (min-width: 1024px) {
+  }
 }
-
-
-
 
 @keyframes App-logo-spin {
   from {
@@ -28,12 +26,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-@media (min-width: 640px){
-  
-}
-
-@media (min-width: 1024px){
-  
 }

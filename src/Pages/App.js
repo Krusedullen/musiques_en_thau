@@ -7,9 +7,11 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <ArtistReel />
-      <ImageSlideshow />
-      <Posts />
+      <div className="main-content">
+        <ArtistReel />
+        <ImageSlideshow />
+        <Posts />
+      </div>
     </div>
   );
 }

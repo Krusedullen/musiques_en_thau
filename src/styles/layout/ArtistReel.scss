@@ -1,4 +1,29 @@
-.Artist-Reel {
-    order: 2;
-    background-color: $color-grey-light;
+.artist-Reel {
+  padding-top: 0.4rem;
+  background-color: $color-grey-light;
+  .reel-header {
+    width: 100%;
+    margin: 0;
+    font-family: $font-serif;
+    font-size: 1.4rem;
+    text-align: center;
+    color: $color-accent-medium;
+  }
+  .artists {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 0.6rem 0;
+  }
+  .artists::-webkit-scrollbar {
+    display: none;
+  }
+  .artist-card {
+    min-width: 38vw;
+    margin: 0 0.6rem;
+  }
+  @media (min-width: 640px) {
+  }
+  @media (min-width: 1024px) {
+  }
 }
