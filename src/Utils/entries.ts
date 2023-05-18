@@ -7,8 +7,14 @@ export const entries = {
 
     "entry1": {
         "key": "entry1",
-        "title": "sometitle",
-        "description" : "content",
-    }
+        "title": "Upcoming!",
+        "description" : "announcements and stuffs. very excite!",
+    },
+
+    "entry2": {
+        "key": "entry2",
+        "title": "suff happened",
+        "description" : "it did indeed happen and stuff",
+    },
 
 }
