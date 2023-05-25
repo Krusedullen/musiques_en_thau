@@ -9,8 +9,10 @@ function App() {
       <Header />
       <div className="main-content">
         <ArtistReel />
-        <ImageSlideshow />
-        <Posts />
+        <div className="main-content-inner">
+          <ImageSlideshow />
+          <Posts />
+        </div>
       </div>
     </div>
   );
