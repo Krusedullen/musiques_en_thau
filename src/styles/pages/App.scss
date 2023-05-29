@@ -10,9 +10,10 @@
     flex-direction: column;
   }
 
-  .main-content-inner{
+  .main-content-inner {
     display: flex;
     flex-direction: column;
+    gap: 1rem;
   }
   @media (min-width: 640px) {
     .main-content {
@@ -20,7 +21,7 @@
       max-width: 1024px;
       flex-direction: row;
     }
-    .main-content-inner{
+    .main-content-inner {
       flex: 3;
       order: 2;
     }
