@@ -1,7 +1,5 @@
 import React, { MouseEventHandler, useState } from "react";
 import { images } from "../Utils/slideshow";
-// import leftArrow from "../Images/common-icons/angle-circle-left.svg";
-// import rightArrow from "../Images/common-icons/angle-circle-right.svg";
 import { LeftArrow, RightArrow } from "./Icons";
 
 export default function MediaTab(): JSX.Element {
