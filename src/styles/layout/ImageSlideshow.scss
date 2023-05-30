@@ -1,26 +1,52 @@
 .Image-Slideshow {
   display: flex;
+  flex-direction: column;
   overflow: hidden;
   align-items: center;
   justify-content: center;
-
-  button {
-    height: fit-content;
-    border: none;
-    background: none;
-  }
-
-  .reel-icon {
-    height: 1.6rem;
-  }
+  padding: 0 1rem;
 
   .reel-image {
-    max-width: 80%;
+    width: 100%;
   }
 
-  @media (min-width: 640px) {
+  .img-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: -3.6rem;
+
+    button {
+      height: fit-content;
+      border: none;
+      background: none;
+
+      svg {
+        height: 4rem;
+        width: fit-content;
+        fill: $color-main-light;
+        stroke: $color-grey-medium;
+        stroke-width: 0.2px;
+      }
+
+      &.previous-img {
+        margin-left: -1rem;
+      }
+      &.next-img {
+        margin-right: -1rem;
+      }
+    }
+  }
+
+  @media (min-width: 1000px) {
     .reel-image {
-      max-height: 280px;
+      max-height: 380px;
+      width: auto;
+    }
+
+    .img-nav {
+      margin-top: 0;
+      max-width: 26rem;
     }
   }
 }
