@@ -1,8 +1,7 @@
 
 import React, { MouseEventHandler, useState } from "react";
 import { images } from "../Utils/slideshow";
-import leftArrow from "../Images/common-icons/angle-circle-left.svg";
-import rightArrow from "../Images/common-icons/angle-circle-right.svg";
+import { LeftArrow, RightArrow } from "./Icons";
 
 export default function MediaTab(): JSX.Element {
   const [imageIndex, setImageIndex] = useState(0);
@@ -24,14 +23,24 @@ export default function MediaTab(): JSX.Element {
   };
 
   return (
-    <div className="Image-Slideshow">
-      <button className="previous-img" onClick={handleClick}>
-        <img className="reel-icon previous" src={leftArrow} alt="Previous" />
-      </button>
+    <div className="Image-Slideshow" aria-label="Image slideshow">
       {imageBoxes[imageIndex]}
-      <button className="next-img" onClick={handleClick}>
-        <img className="reel-icon next" src={rightArrow} alt="Next" />
-      </button>
+      <div className="img-nav">
+        <button
+          className="previous-img"
+          aria-label="previous image"
+          onClick={handleClick}
+        >
+          <LeftArrow />
+        </button>
+        <button
+          className="next-img"
+          aria-label="next image"
+          onClick={handleClick}
+        >
+          <RightArrow />
+        </button>
+      </div>
     </div>
   );
 }
