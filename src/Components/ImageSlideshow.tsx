@@ -14,10 +14,12 @@ export default function MediaTab(): JSX.Element {
     const button = e.currentTarget.className;
 
     if (button === "next-img") {
-      if (imageBoxes.length - 1 > imageIndex) setImageIndex(imageIndex + 1);
+      if (imageBoxes.length - 2 < imageIndex) setImageIndex(0);
+      else setImageIndex(imageIndex + 1);
     }
     if (button === "previous-img") {
       if (imageIndex > 0) setImageIndex(imageIndex - 1);
+      else setImageIndex(imageBoxes.length - 1);
     }
   };
 
