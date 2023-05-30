@@ -1,17 +1,22 @@
 .Image-Slideshow {
-    display: flex;
-    
-    height: 20vh;
-    max-width: 100%;
-    padding: 1em;
+  display: flex;
+  overflow: hidden;
 
-    //vi får spesifisere etterhvert hvordan bildet skal scale.
-    img {
-        object-fit: Image-Slideshow;
-        max-width: 100%;
-    }
+  button {
+    height: fit-content;
+    border: none;
+    background: none;
+  }
+  .reel-icon {
+    height: 1rem;
+  }
 
-    @media (min-width: 640px) {
+  .reel-image {
+    height: 150px;
+  }
+}
+  
+@media (min-width: 640px) {
         
       }
-}
+
