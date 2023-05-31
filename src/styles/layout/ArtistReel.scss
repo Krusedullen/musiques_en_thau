@@ -28,11 +28,13 @@
     overflow-wrap: break-word;
     text-align: center;
     img{
-      max-width: 50%;
+      object-fit: cover;
+      max-height: 60%;
+      max-width: 80%;
     }
     
     .artist-name{
-      font-size: 18px;
+      font-size: 12px;
     }
 
     .bio{
@@ -57,6 +59,12 @@
       padding-bottom: 0.6rem;
       .bio{
         display: block;
+      }
+      img{
+        max-width: 60%;
+      }
+      .artist-name{
+        font-size: 18px;
       }
     }
   }

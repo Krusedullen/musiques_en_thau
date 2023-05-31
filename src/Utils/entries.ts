@@ -8,13 +8,13 @@ export const entries = {
     "entry1": {
         "key": "entry1",
         "title": "Upcoming!",
-        "description" : "announcements and stuffs. very excite!",
+        "description" : "Announcing upcoming event. Details will follow.",
     },
 
     "entry2": {
         "key": "entry2",
-        "title": "suff happened",
-        "description" : "it did indeed happen and stuff",
+        "title": "Updates",
+        "description" : "Past event was eventful. Will keep you posted.",
     },
 
 }
