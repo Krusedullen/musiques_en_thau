@@ -2,7 +2,7 @@ export const images = {
 
   image0: {
     key: "0",
-    src: "https://scontent.fosl4-1.fna.fbcdn.net/v/t39.30808-6/274296450_476170400748924_3773858192038837218_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_ohc=_zsyZ0Wau9QAX_pHpwT&_nc_ht=scontent.fosl4-1.fna&oh=00_AfBWV_ly7trh2pPoVc19WsbW93TlzF0nV8uh7rgy14vzrg&oe=647B9297",
+    src: "/images/hot_club_de_norvège_poster.jpg",
     imgText: "musiques en thau",
   },
   image1: {
@@ -19,6 +19,9 @@ export const images = {
   
 };
 /*
+Hot Club de Norvège
+src: "https://scontent.fosl4-1.fna.fbcdn.net/v/t39.30808-6/274296450_476170400748924_3773858192038837218_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_ohc=_zsyZ0Wau9QAX_pHpwT&_nc_ht=scontent.fosl4-1.fna&oh=00_AfBWV_ly7trh2pPoVc19WsbW93TlzF0nV8uh7rgy14vzrg&oe=647B9297",
+
 image0: {
     key: "0",
     src: "https://st2.depositphotos.com/1765488/7098/i/450/depositphotos_70982651-Retro-car-parked-in-city-street.jpg",

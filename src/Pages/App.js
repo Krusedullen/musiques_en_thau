@@ -10,8 +10,8 @@ function App() {
       <div className="main-content">
         <ArtistReel />
         <div className="main-content-inner">
-          <ImageSlideshow />
           <Posts />
+          <ImageSlideshow />
         </div>
       </div>
     </div>

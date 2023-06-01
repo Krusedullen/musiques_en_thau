@@ -22,7 +22,12 @@
             "id": "45678",
             "navn": "Navn Navnesen", 
             "bio": "",
-            "src": "https://cdn-icons-png.flaticon.com/512/18/18148.png?w=996&t=st=1685539031~exp=1685539631~hmac=83718b7028de7f5dc0a27fdb19fd1186715fb853a8a377e1de0c57df8eb03a55"
+            "src": "/images/ArtistImages/silhouette.png"
         }
         
+        
     }
+/*
+online link avatar
+"https://cdn-icons-png.flaticon.com/512/18/18148.png?w=996&t=st=1685539031~exp=1685539631~hmac=83718b7028de7f5dc0a27fdb19fd1186715fb853a8a377e1de0c57df8eb03a55"
+*/
