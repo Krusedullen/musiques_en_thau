@@ -8,12 +8,10 @@ export default function ArtistReel(): JSX.Element {
   });
 
   return (
-    <div className="artist-Reel">
-      <h1 className="reel-header">Meet The Artists</h1>
-      <div className="artists">
-        <>
-        {artistCards}
-        </>
+    <div className="artist-reel">
+      <h1 className="artist-reel__header">Meet The Artists</h1>
+      <div className="artist-reel__artists">
+        <>{artistCards}</>
       </div>
     </div>
   );

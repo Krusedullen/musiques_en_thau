@@ -9,7 +9,7 @@
     border-radius: 4px;
     border: 1.5px solid $color-accent-light;
     background-color: $color-grey-light;
-    .info-post-header {
+    .info-post__header {
       font-size: 1.2rem;
       line-height: 1.4rem;
       color: $color-main-dark;
@@ -22,8 +22,8 @@
     img{
       max-width: 100%;
     }
-    
-    .info-post-content {
+
+    .info-post__content {
       margin: 0.6rem;
     }
   }
