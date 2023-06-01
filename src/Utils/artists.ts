@@ -14,9 +14,9 @@
         },
         "person3": {
             "id": "34567",
-            "navn": "Ola Nordmann",
+            "navn": "Cédric Chauveau",
             "bio": "",
-            "src": "https://cdn-icons-png.flaticon.com/512/18/18148.png?w=996&t=st=1685539031~exp=1685539631~hmac=83718b7028de7f5dc0a27fdb19fd1186715fb853a8a377e1de0c57df8eb03a55"
+            "src": "https://yt3.googleusercontent.com/ytc/AGIKgqOLUYIESP1glLiE3SYR3T2CHgSVZcsh3zdvWBXs8w=s176-c-k-c0x00ffffff-no-rj"
         },
         "person4": {
             "id": "45678",

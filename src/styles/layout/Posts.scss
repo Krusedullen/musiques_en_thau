@@ -19,7 +19,11 @@
       box-sizing: border-box;
       border-bottom: 1.5px dashed $color-accent-light;
     }
-    p {
+    img{
+      max-width: 100%;
+    }
+    
+    .info-post-content {
       margin: 0.6rem;
     }
   }

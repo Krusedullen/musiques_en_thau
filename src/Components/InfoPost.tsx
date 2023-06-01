@@ -9,7 +9,7 @@ const InfoPost: React.FC<infoPostProps> = ({ title, description }) => {
   return (
     <div className="info-post">
       <h1 className="info-post-header">{title}</h1>
-      <p>{description}</p>
+      <p className="info-post-content">{description}</p>
     </div>
   );
 };
