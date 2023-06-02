@@ -7,7 +7,11 @@ export default function MediaTab(): JSX.Element {
   const [imageIndex, setImageIndex] = useState(0);
   const imageBoxes = Object.values(images).map(({ src, imgText }) => {
     return (
-      <img className="image-slideshow__image" src={src} alt={imgText}></img>
+      <img
+        className="image-slideshow__image"
+        src={process.env.PUBLIC_URL + src}
+        alt={imgText}
+      ></img>
     );
   });
 

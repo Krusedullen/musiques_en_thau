@@ -17,7 +17,7 @@
             "id": "34567",
             "navn": "Cédric Chauveau",
             "bio": "",
-            "src": "https://yt3.googleusercontent.com/ytc/AGIKgqOLUYIESP1glLiE3SYR3T2CHgSVZcsh3zdvWBXs8w=s176-c-k-c0x00ffffff-no-rj"
+            "src": "/images/ArtistImages/cedric_chauveau.jpg"
         },
 
         "person4": {
