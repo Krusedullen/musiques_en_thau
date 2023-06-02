@@ -4,7 +4,14 @@ import { artists } from "../Utils/artists";
 
 export default function ArtistReel(): JSX.Element {
   const artistCards = Object.values(artists).map(({ navn, bio, id, src }) => {
-    return <ArtistCard name={navn} bio={bio} id={id} avatarImage={src} />;
+    return (
+      <ArtistCard
+        name={navn}
+        bio={bio}
+        id={id}
+        avatarImage={process.env.PUBLIC_URL + src}
+      />
+    );
   });
 
   return (
