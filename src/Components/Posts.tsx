@@ -11,7 +11,9 @@ export default function Posts() {
       {/*litt hardkode O_o  */}
       <div className="info-post">
         <img
-          src={"/images/hot_club_de_norvège_poster.jpg"}
+          src={
+            process.env.PUBLIC_URL + "/images/hot_club_de_norvège_poster.jpg"
+          }
           alt="hot_club_de_norvège"
         ></img>
         <h1 className="info-post__header">
@@ -70,7 +72,10 @@ export default function Posts() {
 
         <p className="info-post__content">
           <img
-            src={"/images/ArtistImages/ana-cruise-trio.jpg"}
+            src={
+              process.env.PUBLIC_URL +
+              "/images/ArtistImages/ana-cruise-trio.jpg"
+            }
             alt="ana cruise trio"
           ></img>
           <br />
@@ -85,7 +90,10 @@ export default function Posts() {
 
         <p className="info-post__content">
           <img
-            src={"/images/ArtistImages/melander_chauveau.jpg"}
+            src={
+              process.env.PUBLIC_URL +
+              "/images/ArtistImages/melander_chauveau.jpg"
+            }
             alt="Elisabeth Melander and Cédric Chauveau"
           ></img>
           <br />
@@ -104,7 +112,10 @@ export default function Posts() {
 
         <p className="info-post__content">
           <img
-            src={"/images/ArtistImages/hot_club_colours.jpg"}
+            src={
+              process.env.PUBLIC_URL +
+              "/images/ArtistImages/hot_club_colours.jpg"
+            }
             alt="Hot Club de Norvège"
           ></img>
           <br />
@@ -117,7 +128,10 @@ export default function Posts() {
 
         <p className="info-post__content">
           <img
-            src={"/images/ArtistImages/Cédric-Chauveau-trio.jpg"}
+            src={
+              process.env.PUBLIC_URL +
+              "/images/ArtistImages/Cédric-Chauveau-trio.jpg"
+            }
             alt="Hot Club de Norvège"
           ></img>
           <br />
