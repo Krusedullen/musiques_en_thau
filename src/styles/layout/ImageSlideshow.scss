@@ -1,4 +1,4 @@
-.Image-Slideshow {
+.image-slideshow {
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -6,11 +6,11 @@
   justify-content: center;
   padding: 0 1rem;
 
-  .reel-image {
+  .image-slideshow__image {
     width: 100%;
   }
 
-  .img-nav {
+  .image-slideshow__nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -39,12 +39,14 @@
   }
 
   @media (min-width: 1000px) {
-    .reel-image {
+    .image-slideshow__image {
+      /*
+      definer størrelses-constraints senere
       max-height: 380px;
-      width: auto;
+      width: auto;*/
     }
 
-    .img-nav {
+    .image-slideshow__nav {
       margin-top: 0;
       max-width: 26rem;
     }

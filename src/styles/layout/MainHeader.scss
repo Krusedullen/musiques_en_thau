@@ -5,7 +5,7 @@
   flex-direction: row;
   justify-content: space-between;
   color: #d54000;
-  height: 5vh;
+  min-height: 50px;
   padding: 0.8rem;
   nav {
     gap: 1em;
@@ -22,10 +22,16 @@
     }
   }
   .logo {
-    height: 3rem;
+    max-width: 50%;
+    height:auto;
+    object-fit: scale-down;
   }
   // Mobile landscape, tablet
   @media (min-width: 640px) {
+    .logo {
+      max-width: 30%;
+      height:auto;
+    }
 
   }
   // Desktop

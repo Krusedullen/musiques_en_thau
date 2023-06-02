@@ -6,7 +6,9 @@ import { LeftArrow, RightArrow } from "./Icons";
 export default function MediaTab(): JSX.Element {
   const [imageIndex, setImageIndex] = useState(0);
   const imageBoxes = Object.values(images).map(({ src, imgText }) => {
-    return <img className="reel-image" src={src} alt={imgText}></img>;
+    return (
+      <img className="image-slideshow__image" src={src} alt={imgText}></img>
+    );
   });
 
   const handleClick: MouseEventHandler = (e) => {
@@ -23,9 +25,9 @@ export default function MediaTab(): JSX.Element {
   };
 
   return (
-    <div className="Image-Slideshow" aria-label="Image slideshow">
+    <div className="image-slideshow" aria-label="image slideshow">
       {imageBoxes[imageIndex]}
-      <div className="img-nav">
+      <div className="image-slideshow__nav">
         <button
           className="previous-img"
           aria-label="previous image"

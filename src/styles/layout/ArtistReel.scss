@@ -1,10 +1,9 @@
-.artist-Reel {
+.artist-reel {
   max-height: 20vh;
   padding-top: 0.4rem;
   background-color: $color-grey-light;
-  
-  
-  .reel-header {
+
+  .artist-reel__header {
     width: 100%;
     margin: 0;
     font-family: $font-serif;
@@ -12,13 +11,13 @@
     text-align: center;
     color: $color-accent-medium;
   }
-  .artists {
+  .artist-reel__artists {
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
     padding: 0.6rem 0;
   }
-  .artists::-webkit-scrollbar {
+  .artist-reel__artists::-webkit-scrollbar {
     display: none;
   }
 
@@ -27,37 +26,46 @@
     margin: 0 0.6rem;
     overflow-wrap: break-word;
     text-align: center;
-    img{
-      max-width: 50%;
-    }
     
-    .artist-name{
-      font-size: 18px;
+
+    img {
+      max-width: 65%;
     }
 
-    .bio{
-      display: none;  
+    .artist-name {
+      font-size: 16px;
     }
-    
+
+    .bio {
+      display: none;
+    }
   }
 
   //For tablets and larger screens
   @media (min-width: 640px) {
     flex: 1;
     order: 1;
-    max-height: fit-content;
-    overflow-y: scroll;
+    max-height:100%;
+    //min-height: 900px;
+    height:fit-content;
 
-    .artists {
+    .artist-reel__artists {
       display: flex;
       flex-direction: column;
     }
     .artist-card {
       min-width: 0;
       padding-bottom: 0.6rem;
-      .bio{
+      .bio {
         display: block;
       }
+      img {
+        max-width: 75%;
+      }
+    }
+
+    .artist-name {
+      font-size: 18px;
     }
   }
 

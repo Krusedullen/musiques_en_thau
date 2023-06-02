@@ -2,17 +2,33 @@
 $color-main-light: #9dced1;
 $color-main-medium: #4c9ba0;
 $color-main-dark: #457b87;
+
 // Contrast colors
 $color-accent-light: #edcdb6;
 $color-accent-medium: #f36335;
 $color-accent-dark: #d54000;
+
 // Greyscale colors
 $color-grey-light: #fcfefd;
 $color-grey-mediumLight: #dee7e7;
 $color-grey-medium: #4f4f4f;
 $color-grey-dark: #333;
+
 // Screen width sizes
 $tablet-width: 640px;
 $desktop-width: 1024px;
+
 // Fonts
 $font-serif: "serif";
+
+// Layout sizes
+$gap-size-s: 5px; // not final, just placeholder
+$gap-size: 10px; // not final
+$border-radius: 4px;
+$fs-small: 0.9rem;
+$fs-medium: 1rem;
+$fs-large: 1.25rem;
+$fs-Xlarge: 1.4rem;
+$line-height-s: 100%;
+$line-height-m: 125%;
+$line-height-l: 150%;
