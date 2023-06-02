@@ -40,8 +40,10 @@
 
   @media (min-width: 1000px) {
     .image-slideshow__image {
+      /*
+      definer størrelses-constraints senere
       max-height: 380px;
-      width: auto;
+      width: auto;*/
     }
 
     .image-slideshow__nav {

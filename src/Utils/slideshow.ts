@@ -3,17 +3,17 @@ export const images = {
   image0: {
     key: "0",
     src: "/images/hot_club_de_norvège_poster.jpg",
-    imgText: "musiques en thau",
+    imgText: "hot club poster",
   },
   image1: {
     key: "1",
-    src: "https://scontent.fosl4-1.fna.fbcdn.net/v/t39.30808-6/311444286_5993442520679828_2403787351094287579_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=IIJ7z19hflMAX-yyEO_&_nc_ht=scontent.fosl4-1.fna&oh=00_AfCJupww5sDLJUvTORuV1c0DwZPEkhYuNJH34DLHG6iFyA&oe=647C7AEE",
+    src: "/images/melander_singing.jpg",
     imgText: "musiques en thau",
   },
   image2: {
     key: "2",
-    src: "https://scontent.fosl4-2.fna.fbcdn.net/v/t39.30808-6/311419263_5993442284013185_2980338922231843153_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=Wqh2QhPpg_MAX9-p6oL&_nc_ht=scontent.fosl4-2.fna&oh=00_AfDzb7-L_RMqiIcQ_20Vi9tRm48uUMd8UelZBSIlacM6YA&oe=647BC366",
-    imgText: "Street",
+    src: "/images/melander_musiques_en_thau.jpg",
+    imgText: "melander",
   },
 
   
