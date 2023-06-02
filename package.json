@@ -2,7 +2,7 @@
   "name": "musiques_en_thau",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Krusedullen.github.io/musiques_en_thau",
+  "homepage": "http://krusedullen.github.io/musiques_en_thau",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
