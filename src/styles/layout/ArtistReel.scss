@@ -26,13 +26,14 @@
     margin: 0 0.6rem;
     overflow-wrap: break-word;
     text-align: center;
+    
 
     img {
-      max-width: 50%;
+      max-width: 65%;
     }
 
     .artist-name {
-      font-size: 18px;
+      font-size: 16px;
     }
 
     .bio {
@@ -44,7 +45,9 @@
   @media (min-width: 640px) {
     flex: 1;
     order: 1;
-    max-height: fit-content;
+    max-height:100%;
+    //min-height: 900px;
+    height:fit-content;
 
     .artist-reel__artists {
       display: flex;
@@ -56,6 +59,13 @@
       .bio {
         display: block;
       }
+      img {
+        max-width: 75%;
+      }
+    }
+
+    .artist-name {
+      font-size: 18px;
     }
   }
 

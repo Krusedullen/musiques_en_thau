@@ -1,6 +1,9 @@
 import React from "react";
+
+/* imports for å hente inn post komponenter. Dataene fra "entries" blir erstattet av database.:
 import { entries } from "../Utils/entries";
 import InfoPost from "./InfoPost";
+*/
 
 export default function Posts() {
   return (
@@ -17,54 +20,119 @@ export default function Posts() {
         <p className="info-post__content">
           Meet great musicians and experience the music in the harbor of the old
           and picturesque town of Marseillan.
-        </p>
-        <p className="info-post__content">
+          <br />
+          <br />
           This is a year to commemorate the well known Django Reinhardt who died
           70 years ago.
-        </p>
-        <p className="info-post__content">
+          <br />
+          <br />
           So, through hard work with a good group of french, swedish and
           norwegian forces, we, the association «Musique en Thau» have composed
           a program as follows:
+          <br />
+          <br />
           <p className="info-post__content info-post__temp-list-title">
-            Port of Marseillan June 30th 2023
+            <b>Port of Marseillan June 30th 2023</b>
             <ul>
-              <li>19.30 The opening of the festival</li>
-              <li>19.45 Ana Cruise Trio, Jazz, Marseillan France</li>
               <li>
-                20.15 Elisabeth Melander with Cédric Chauveau trio, jazz, Sweden
-                and France
+                <b>19.30</b> The opening of the festival
               </li>
               <li>
-                21.15 Hot Club de Norvège, jazz and tribute to Django Reinhardt,
-                Norway
+                <b>19.45</b> Ana Cruise Trio, Jazz, Marseillan France
               </li>
-              <li>23.30 …..end of performances…or…</li>
+              <li>
+                <b>20.15</b> Elisabeth Melander with Cédric Chauveau trio, jazz,
+                Sweden and France
+              </li>
+              <li>
+                <b>21.15</b> Hot Club de Norvège, jazz and tribute to Django
+                Reinhardt, Norway
+              </li>
+              <li>
+                <b>23.30</b> …..end of performances…or…
+              </li>
             </ul>
           </p>
-        </p>
-
-        <p className="info-post__content">
+          <br />
           This is a great opportunity to experience the absolutely best jazz
           musicians in Europe for FREE!
+          <br />
+          <br />
+          Don't miss it!
+          <br />
+          <br />
+          Welcome!
         </p>
-        <p className="info-post__content">Don't miss it!</p>
-        <p className="info-post__content">Welcome!</p>
       </div>
+
       <div className="info-post">
         <h1 className="info-post__header">Good things come in three</h1>
-        <img
-          src={"/images/ArtistImages/ana-cruise-trio.jpg"}
-          alt="ana cruise trio"
-        ></img>
+
         <p className="info-post__content">
-          Alt text: The Ana Cruise Trio will be opening the performances.
+          <img
+            src={"/images/ArtistImages/ana-cruise-trio.jpg"}
+            alt="ana cruise trio"
+          ></img>
+          <br />
+          <div className="marked-text">
+            Alt text: The Ana Cruise Trio will be opening the performances.
+          </div>
         </p>
       </div>
-      {/*den endelige koden skal hente info fra database */}
-      {Object.values(entries).map(({ title, description }) => {
-        return <InfoPost title={title} description={description} />;
-      })}{" "}
+
+      <div className="info-post">
+        <h1 className="info-post__header ">And then there were four</h1>
+
+        <p className="info-post__content">
+          <img
+            src={"/images/ArtistImages/melander_chauveau.jpg"}
+            alt="Elisabeth Melander and Cédric Chauveau"
+          ></img>
+          <br />
+          <div className="marked-text">
+            Alt text: Distinguished jazz singer Elisabeth Melander (to the
+            right) teams up with the Cédric Chauveau Trio. With Cedric Chauveau
+            (to the left) on the piano joined by bassist Nicola Sabato and
+            drummer Mourad Benhammou, this is a team-up that is sure to get us
+            excited!
+          </div>
+        </p>
+      </div>
+
+      <div className="info-post">
+        <h1 className="info-post__header ">Hot Club de Norvège</h1>
+
+        <p className="info-post__content">
+          <img
+            src={"/images/ArtistImages/hot_club_colours.jpg"}
+            alt="Hot Club de Norvège"
+          ></img>
+          <br />
+          <div className="marked-text">Alt text: ....</div>
+        </p>
+      </div>
+
+      <div className="info-post">
+        <h1 className="info-post__header ">Cédric Chauveau Trio</h1>
+
+        <p className="info-post__content">
+          <img
+            src={"/images/ArtistImages/Cédric-Chauveau-trio.jpg"}
+            alt="Hot Club de Norvège"
+          ></img>
+          <br />
+          <div className="marked-text">Alt text: ....</div>
+        </p>
+      </div>
     </div>
   );
 }
+
+/*
+den endelige koden looper gjennom og presenterer post-komponenter. Skal hente info fra database:
+
+{Object.values(entries).map(({ title, description }) => {
+  return <InfoPost title={title} description={description} />;
+})}{" "}
+
+*/
