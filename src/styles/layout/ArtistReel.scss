@@ -21,6 +21,10 @@
     display: none;
   }
 
+  .side-bar-map {
+    display: none;
+  }
+
   .artist-card {
     min-width: 30vw;
     margin: 0 0.6rem;
@@ -44,7 +48,7 @@
     a:hover {
       color: $color-main-dark;
       text-decoration: none;
-      cursor:pointer;
+      cursor: pointer;
     }
   }
 
@@ -74,6 +78,18 @@
     .artist-name {
       font-size: 18px;
       font-weight: bold;
+    }
+
+    //til google maps location preview
+    .side-bar-map {
+      padding: 1px 1px 0px 1px;
+      display: block;
+      //max-width: "100%";
+      border: solid lightgrey;
+
+      iframe {
+        border: none;
+      }
     }
   }
 
