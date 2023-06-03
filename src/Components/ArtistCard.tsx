@@ -18,8 +18,10 @@ const ArtistCard: React.FC<artistProps> = ({
   //får ikke til å gi key value :(
   return (
     <div className="artist-card" id={id} key={id}>
-      <img src={process.env.PUBLIC_URL + avatarImage} alt="avatar"></img>
-      <div className="artist-name">{name}</div>
+      <a href={artistpage}>
+        <img src={process.env.PUBLIC_URL + avatarImage} alt="avatar"></img>
+        <div className="artist-name">{name}</div>
+      </a>
       <div className="bio">{bio}</div>
     </div>
   );
