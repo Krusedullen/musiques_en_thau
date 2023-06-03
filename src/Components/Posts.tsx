@@ -96,9 +96,10 @@ export default function Posts() {
           ></img>
           <br />
           Alt text: Distinguished jazz singer Elisabeth Melander (to the right)
-          teams up with the Cédric Chauveau Trio. With Cedric Chauveau (to the
-          left) on the piano joined by bassist Nicola Sabato and drummer Michael
-          Santanastasio, this is a team-up that is sure to get us excited!
+          teams up with the Cédric Chauveau Trio. With Cédric Chauveau (to the
+          left) on the piano joined by bassist Nicola Sabato and percussionist
+          Michael Santanastasio, this is a team-up that is sure to get us
+          excited!
         </p>
       </div>
 
@@ -127,7 +128,7 @@ export default function Posts() {
               process.env.PUBLIC_URL +
               "/images/ArtistImages/Cédric-Chauveau-trio.jpg"
             }
-            alt="Hot Club de Norvège"
+            alt="Cédric Chauveau Trio"
           ></img>
           <br />
           Alt text: ....
