@@ -79,9 +79,7 @@ export default function Posts() {
             alt="ana cruise trio"
           ></img>
           <br />
-          <div className="marked-text">
-            Alt text: The Ana Cruise Trio will be opening the performances.
-          </div>
+          Alt text: The Ana Cruise Trio will be opening the performances.
         </p>
       </div>
 
@@ -97,13 +95,10 @@ export default function Posts() {
             alt="Elisabeth Melander and Cédric Chauveau"
           ></img>
           <br />
-          <div className="marked-text">
-            Alt text: Distinguished jazz singer Elisabeth Melander (to the
-            right) teams up with the Cédric Chauveau Trio. With Cedric Chauveau
-            (to the left) on the piano joined by bassist Nicola Sabato and
-            drummer Mourad Benhammou, this is a team-up that is sure to get us
-            excited!
-          </div>
+          Alt text: Distinguished jazz singer Elisabeth Melander (to the right)
+          teams up with the Cédric Chauveau Trio. With Cedric Chauveau (to the
+          left) on the piano joined by bassist Nicola Sabato and drummer Michael
+          Santanastasio, this is a team-up that is sure to get us excited!
         </p>
       </div>
 
@@ -119,7 +114,7 @@ export default function Posts() {
             alt="Hot Club de Norvège"
           ></img>
           <br />
-          <div className="marked-text">Alt text: ....</div>
+          Alt text: ....
         </p>
       </div>
 
@@ -135,7 +130,7 @@ export default function Posts() {
             alt="Hot Club de Norvège"
           ></img>
           <br />
-          <div className="marked-text">Alt text: ....</div>
+          Alt text: ....
         </p>
       </div>
     </div>

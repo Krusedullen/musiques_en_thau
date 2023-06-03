@@ -26,6 +26,13 @@
             "bio": "",
             "src": "/images/ArtistImages/ana_cruise_avatar_1.png"
         },
+
+        "person5": {
+            "id": "34569",
+            "navn": "michael santanastasio",
+            "bio": "",
+            "src": "/images/ArtistImages/michael_santanastasio.jpg"
+        },
         
         
         
