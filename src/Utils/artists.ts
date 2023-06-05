@@ -17,7 +17,7 @@ export const artists = {
     id: "34567",
     navn: "Cédric Chauveau",
     bio: "",
-    src: "/images/ArtistImages/cedric_chauveau.jpg",
+    src: "/images/ArtistImages/c_chauveau.jpg",
     artistpage: "http://cedric-chauveau.com/",
   },
 
