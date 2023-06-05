@@ -130,7 +130,10 @@ export default function Posts() {
 
         <p className="info-post__content">
           <img
-            src={process.env.PUBLIC_URL + "/images/ArtistImages/c_chauveau.jpg"}
+            src={
+              process.env.PUBLIC_URL +
+              "/images/ArtistImages/Cédric_Chauveau_trio.png"
+            }
             alt="Cédric Chauveau Trio"
           ></img>
           <br />

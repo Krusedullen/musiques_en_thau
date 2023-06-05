@@ -52,6 +52,13 @@
     }
   }
 
+  //temp classes
+  .sponsors-section{
+    display:none;
+    text-align: center;
+  }
+
+  
   //For tablets and larger screens
   @media (min-width: 640px) {
     flex: 1;
@@ -80,6 +87,7 @@
       font-weight: bold;
     }
 
+    //temp classes
     //til google maps location preview
     .side-bar-map {
       padding: 1px 1px 0px 1px;
@@ -90,6 +98,9 @@
       iframe {
         border: none;
       }
+    }
+    .sponsors-section{
+      display:block;
     }
   }
 

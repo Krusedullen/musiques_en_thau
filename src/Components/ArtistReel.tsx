@@ -24,12 +24,19 @@ export default function ArtistReel(): JSX.Element {
         <>{artistCards}</>
       </div>
 
+      <br />
+
       <div className="side-bar-map">
         <iframe
           title="Marseillan Map"
           src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1450.5510027831413!2d3.530230088037457!3d43.35397685563521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sno!4v1685827295465!5m2!1sen!2sno"
           loading="lazy"
         ></iframe>
+      </div>
+      <br />
+      <div className="sponsors-section">
+        <h1 className="artist-reel__header">Sponsors</h1>
+        <p>Coming soon</p>
       </div>
     </div>
   );

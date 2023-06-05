@@ -6,32 +6,26 @@ export const artists = {
     src: "/images/ArtistImages/elisabeth_melander_avatar_1.jpg",
     artistpage: "https://portal.research.lu.se/en/persons/elisabeth-melander",
   },
+
   person2: {
-    id: "23456",
-    navn: "Hot Club de Norvège",
-    bio: "",
-    src: "/images/ArtistImages/hot_club_colours.jpg",
-    artistpage: "https://www.facebook.com/hotclubdenorvege/",
-  },
-  person3: {
-    id: "34567",
+    id: "34566",
     navn: "Cédric Chauveau",
     bio: "",
-    src: "/images/ArtistImages/c_chauveau.jpg",
+    src: "/images/ArtistImages/c_chauveau_avatar.jpg",
     artistpage: "http://cedric-chauveau.com/",
   },
 
-  person4: {
-    id: "34568",
-    navn: "Michael Santanastasio",
+  person3: {
+    id: "23457",
+    navn: "Hot Club de Norvège",
     bio: "",
-    src: "/images/ArtistImages/michael_santanastasio.jpg",
-    artistpage: "https://www.facebook.com/michael.santanastasio/",
+    src: "/images/ArtistImages/hot_club_colours_avatar.jpg",
+    artistpage: "https://www.facebook.com/hotclubdenorvege/",
   },
 
   //fiks link!!
-  person5: {
-    id: "34569",
+  person4: {
+    id: "34568",
     navn: "Ana Cruise Trio",
     bio: "",
     src: "/images/ArtistImages/ana_cruise_avatar_1.png",
