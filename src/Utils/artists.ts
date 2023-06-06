@@ -7,6 +7,7 @@ export const artists = {
     artistpage: "https://portal.research.lu.se/en/persons/elisabeth-melander",
   },
 
+
   person2: {
     id: "34566",
     navn: "Cédric Chauveau",
@@ -14,7 +15,7 @@ export const artists = {
     src: "/images/ArtistImages/c_chauveau_avatar.jpg",
     artistpage: "http://cedric-chauveau.com/",
   },
-
+  
   person3: {
     id: "23457",
     navn: "Hot Club de Norvège",

@@ -135,7 +135,7 @@ export default function Posts() {
               "/images/ArtistImages/Cédric_Chauveau_trio.png"
             }
             alt="Cédric Chauveau Trio"
-          ></img>
+        ></img>
           <br />
           The trio is composed of Cédric Chauveau (piano), Michel Altier (double
           bass) and Michael Santanastasio (drums). These three seasoned

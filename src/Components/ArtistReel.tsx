@@ -3,6 +3,7 @@ import ArtistCard from "./ArtistCard";
 import { artists } from "../Utils/artists";
 
 export default function ArtistReel(): JSX.Element {
+
   const artistCards = Object.values(artists).map(
     ({ navn, bio, id, src, artistpage }) => {
       return (
@@ -16,6 +17,7 @@ export default function ArtistReel(): JSX.Element {
       );
     }
   );
+
 
   return (
     <div className="artist-reel">
