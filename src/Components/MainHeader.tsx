@@ -8,12 +8,14 @@ export default function Header() {
       <img className="logo" src={logo} alt="logo" />
       <nav className="menu">
         <a href={musiquesFacebook}> Facebook </a>
-        <a href="https://www.bt.no/">test link</a>
+        
       </nav>
     </header>
   );
 }
 
 /*
+<a href="https://www.bt.no/">test link</a>
+
 <img src={logo} className="App-logo" alt="logo" />
 */

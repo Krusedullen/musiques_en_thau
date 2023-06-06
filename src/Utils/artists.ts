@@ -1,35 +1,38 @@
+export const artists = {
+  person1: {
+    id: "12345",
+    navn: "Elisabeth Melander",
+    bio: "",
+    src: "/images/ArtistImages/elisabeth_melander_avatar_1.jpg",
+    artistpage: "https://portal.research.lu.se/en/persons/elisabeth-melander",
+  },
 
-   export const artists = {
-        "person1": {
-            "id": "12345",
-            "navn": "Elisabeth Melander", 
-            "bio": "",
-            "src": "/images/ArtistImages/elisabeth_melander_avatar_1.jpg"
-            
-        },
-        "person2": {
-            "id": "23456",
-            "navn": "Hot Club de Norwège",
-            "bio": "",
-            "src": "/images/ArtistImages/hot_club_avatar_1.jpg"
-        },
-        "person3": {
-            "id": "34567",
-            "navn": "Cédric Chauveau",
-            "bio": "",
-            "src": "/images/ArtistImages/cedric_chauveau.jpg"
-        },
 
-        "person4": {
-            "id": "34568",
-            "navn": "Ana Cruise Trio",
-            "bio": "",
-            "src": "/images/ArtistImages/ana_cruise_avatar_1.png"
-        },
-        
-        
-        
-    }
+  person2: {
+    id: "34566",
+    navn: "Cédric Chauveau",
+    bio: "",
+    src: "/images/ArtistImages/c_chauveau_avatar.jpg",
+    artistpage: "http://cedric-chauveau.com/",
+  },
+  
+  person3: {
+    id: "23457",
+    navn: "Hot Club de Norvège",
+    bio: "",
+    src: "/images/ArtistImages/hot_club_colours_avatar.jpg",
+    artistpage: "https://www.facebook.com/hotclubdenorvege/",
+  },
+
+  //fiks link!!
+  person4: {
+    id: "34568",
+    navn: "Ana Cruise Trio",
+    bio: "",
+    src: "/images/ArtistImages/ana_cruise_avatar_1.png",
+    artistpage: "https://krusedullen.github.io/musiques_en_thau/",
+  },
+};
 /*
 online link avatar
 "https://cdn-icons-png.flaticon.com/512/18/18148.png?w=996&t=st=1685539031~exp=1685539631~hmac=83718b7028de7f5dc0a27fdb19fd1186715fb853a8a377e1de0c57df8eb03a55"
