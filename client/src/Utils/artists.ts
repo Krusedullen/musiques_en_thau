@@ -7,7 +7,6 @@ export const artists = {
     artistpage: "https://portal.research.lu.se/en/persons/elisabeth-melander",
   },
 
-
   person2: {
     id: "34566",
     navn: "Cédric Chauveau",
@@ -15,7 +14,7 @@ export const artists = {
     src: "/images/ArtistImages/c_chauveau_avatar.jpg",
     artistpage: "http://cedric-chauveau.com/",
   },
-  
+
   person3: {
     id: "23457",
     navn: "Hot Club de Norvège",
@@ -30,7 +29,7 @@ export const artists = {
     navn: "Ana Cruise Trio",
     bio: "",
     src: "/images/ArtistImages/ana_cruise_avatar_1.png",
-    artistpage: "https://krusedullen.github.io/musiques_en_thau/",
+    artistpage: "https://musiquesenthau.com/",
   },
 };
 /*

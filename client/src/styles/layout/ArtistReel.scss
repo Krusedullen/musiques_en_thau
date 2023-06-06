@@ -32,7 +32,7 @@
     text-align: center;
 
     img {
-      max-width: 65%;
+      max-height: 74px;
     }
 
     .artist-name {
@@ -79,6 +79,7 @@
       }
       img {
         max-width: 75%;
+        max-height: none;
       }
     }
 
@@ -90,7 +91,8 @@
     //temp classes
     //til google maps location preview
     .side-bar-map {
-      padding: 1px 1px 0px 1px;
+      overflow: hidden;
+      //padding: 1px 1px 0px 1px;
       display: block;
       //max-width: "100%";
       border: solid lightgrey;
