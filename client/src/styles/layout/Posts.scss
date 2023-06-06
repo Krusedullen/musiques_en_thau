@@ -8,7 +8,6 @@
   .info-post {
     width: 100%;
     border-radius: 4px;
-    overflow: hidden;
     border: 1.5px solid $color-accent-light;
     background-color: $color-grey-light;
     
@@ -34,9 +33,12 @@
     }
   }
   @media (min-width: 640px) {
-    .info-post{
-      border-radius: 0px;
+    /*.info-post{
+      img{
+        
+      }
     }
+    */
 
   }
   @media (min-width: 1024px) {
