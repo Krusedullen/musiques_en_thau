@@ -2,6 +2,7 @@ import Header from "../Components/MainHeader";
 import ImageSlideshow from "../Components/ImageSlideshow";
 import Posts from "../Components/Posts";
 import ArtistReel from "./../Components/ArtistReel";
+import Footer from "./../Components/PageFooter";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <ImageSlideshow />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

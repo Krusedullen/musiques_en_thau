@@ -1,0 +1,23 @@
+.page-footer {
+  max-width: 100%;
+  padding: 15px 15px 0px 15px;
+  color: $color-grey-mediumLight;
+  background-color: $color-grey-medium;
+
+  a,a:link,
+  a:visited,
+  a:focus,
+  a:hover{
+    color: $color-grey-mediumLight;
+  }
+
+  .page-footer__author {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  @media (min-width: 640px) {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
