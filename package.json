@@ -25,7 +25,9 @@
     "create-react-app",
     "react"
   ],
-  
+  "bugs": {
+    "url": "https://github.com/mars/heroku-cra-node/issues"
+  },
   "main": "index.js",
   "author": "",
   "license": "ISC",
