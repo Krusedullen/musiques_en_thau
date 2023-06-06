@@ -4,7 +4,7 @@
   "description": "node server",
   "homepage": "https://musiques-en-thau-klsztxhrra-lz.a.run.app",
   "engines": {
-    "node": "19.x.x",
+    "node": "18.x.x",
     "npm": "7.6.0"
   },
   "scripts": {
