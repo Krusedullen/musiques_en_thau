@@ -5,8 +5,15 @@ This is the home page of "Musique en Thau", a music organization based in Marsei
 Musique en Thau's passion project is it's jazz festival hosted in the port of Marseillan each summer.
 
 
+### Languages and Frameworks
+React.js
+JavaScript: TypeScript
+CSS: SCSS
+Node.js
+Express.js
+bootstrapped with Create React App
 
-####This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ### Available Scripts
 
@@ -46,6 +53,8 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ### Learn More
+
+####This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
