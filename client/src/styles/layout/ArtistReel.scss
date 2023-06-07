@@ -1,5 +1,5 @@
 .artist-reel {
-  max-height: 21vh;
+  max-height: 160px;
   padding-top: 0.4rem;
   background-color: $color-grey-light;
 
@@ -91,7 +91,7 @@
     //temp classes
     //til google maps location preview
     .side-bar-map {
-      overflow: hidden;
+      padding: 1px 1px 0px 1px;
       display: block;
       //max-width: "100%";
       border: solid lightgrey;
