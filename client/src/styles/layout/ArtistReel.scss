@@ -1,5 +1,5 @@
 .artist-reel {
-  max-height: 160px;
+  max-height: 20vh;
   padding-top: 0.4rem;
   background-color: $color-grey-light;
 
@@ -32,8 +32,7 @@
     text-align: center;
 
     img {
-      max-width: 100%;
-      max-height: 75px;
+      max-width: 65%;
     }
 
     .artist-name {
@@ -80,7 +79,6 @@
       }
       img {
         max-width: 75%;
-        max-height: none;
       }
     }
 
