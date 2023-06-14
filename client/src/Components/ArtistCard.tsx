@@ -15,7 +15,6 @@ const ArtistCard: React.FC<artistProps> = ({
   avatarImage,
   artistpage,
 }) => {
-  //får ikke til å gi key value :(
   return (
     <div className="artist-card" id={id} key={id}>
       <a href={artistpage}>
