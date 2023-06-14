@@ -4,6 +4,17 @@ import Posts from "../Components/Posts";
 import ArtistReel from "./../Components/ArtistReel";
 
 function App() {
+  const clearCacheData = () => {
+    caches.keys().then((names) => {
+      names.forEach((name) => {
+        caches.delete(name);
+      });
+    });
+    console.log("Complete Cache Cleared");
+  };
+
+  clearCacheData();
+  
   return (
     <div className="App">
       <Header />
