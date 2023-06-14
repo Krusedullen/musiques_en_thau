@@ -1,3 +1,4 @@
+import * as React from "react";
 import Header from "../Components/MainHeader";
 import ImageSlideshow from "../Components/ImageSlideshow";
 import Posts from "../Components/Posts";
@@ -14,7 +15,7 @@ function App() {
   };
 
   clearCacheData();
-  
+
   return (
     <div className="App">
       <Header />
