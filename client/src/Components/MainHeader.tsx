@@ -7,7 +7,7 @@ export default function Header() {
     <header className="main-header">
       <img className="logo" src={logo} alt="logo" />
       <nav className="menu">
-        <a href={translateFrench}> French/ le français </a>
+        <a href={translateFrench}> français </a>
         <a href={musiquesFacebook}> Facebook </a>
       </nav>
     </header>
