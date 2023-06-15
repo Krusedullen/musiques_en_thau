@@ -1,5 +1,4 @@
-import React, { useRef } from "react";
-import { NULL } from "sass";
+import React from "react";
 const Video1 = "/videos/musique_promo_vid.mp4";
 
 export default function Video(this: HTMLVideoElement): JSX.Element {
