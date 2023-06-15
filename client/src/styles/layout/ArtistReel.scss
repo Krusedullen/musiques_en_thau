@@ -21,10 +21,6 @@
     display: none;
   }
 
-  .side-bar-map {
-    display: none;
-  }
-
   .artist-card {
     min-width: 30vw;
     margin: 0 0.6rem;
@@ -89,17 +85,7 @@
     }
 
     //temp classes
-    //til google maps location preview
-    .side-bar-map {
-      overflow: hidden;
-      display: block;
-      //max-width: "100%";
-      border: solid lightgrey;
-
-      iframe {
-        border: none;
-      }
-    }
+    
     .sponsors-section{
       display:block;
     }
