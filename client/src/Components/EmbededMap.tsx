@@ -1,9 +1,4 @@
-import {
-  GoogleMap,
-  useLoadScript,
-  MarkerF,
-  InfoWindow,
-} from "@react-google-maps/api";
+import { GoogleMap, useLoadScript, MarkerF } from "@react-google-maps/api";
 
 import React, { useMemo, useState } from "react";
 
@@ -28,7 +23,6 @@ export default function EmbededMap() {
   };
 
   const googleMapsApiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
-  //const mapURL = "https://maps.googleapis.com/maps/api/js?key=AIzaSyDWEPklURTHLQYoAR0NMgGcAyI-UQOKFbE&libraries=places&v=quarterly";
 
   if (googleMapsApiKey === undefined) {
     return (
@@ -71,23 +65,3 @@ export default function EmbededMap() {
     );
   }
 }
-
-/*
-  <div className="embeded-map">
-    <GoogleMap
-       zoom={10}
-       center={center}
-       mapContainerClassName="map-container"
-     >
-  </div>;
-
-  <div className="embeded-map">
-    <iframe
-      title="Marseillan Map"
-      src="https://storage.googleapis.com/maps-solutions-s2uryz5085/locator-plus/8251/locator-plus.html"
-      width="100%"
-      height="100%"
-      loading="lazy"
-    />
-  </div>;
-  */
