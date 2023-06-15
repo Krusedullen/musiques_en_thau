@@ -4,6 +4,7 @@ import ImageSlideshow from "../Components/ImageSlideshow";
 import Posts from "../Components/Posts";
 import ArtistReel from "./../Components/ArtistReel";
 
+
 function App() {
   const clearCacheData = () => {
     caches.keys().then((names) => {

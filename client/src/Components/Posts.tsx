@@ -1,4 +1,5 @@
 import React from "react";
+import Video from "./../Components/Video";
 
 /* imports for å hente inn post komponenter. Dataene fra "entries" blir erstattet av database.:
 import { entries } from "../Utils/entries";
@@ -66,6 +67,8 @@ export default function Posts() {
           Welcome!
         </p>
       </div>
+
+      <Video />
 
       <div className="info-post">
         <h1 className="info-post__header">Ana Cruise Quintet</h1>

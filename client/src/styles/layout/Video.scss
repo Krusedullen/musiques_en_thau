@@ -1,4 +1,15 @@
-.Video {
-    width: 100%;
+.video-frame {
+    
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    
+
+    .video-frame_video{
+        object-fit: fill;
+        display: flex;
+        width: 100%;
+    }
+    
     /* må få videoen til å shrinke til containeren*/
 }
