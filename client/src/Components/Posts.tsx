@@ -1,10 +1,10 @@
 import React from "react";
 import Video from "./../Components/Video";
 
-/* imports for å hente inn post komponenter. Dataene fra "entries" blir erstattet av database.:
+//imports for å hente inn post komponenter. Dataene fra "entries" blir erstattet av database.:
 import { entries } from "../Utils/entries";
 import InfoPost from "./InfoPost";
-*/
+import SponsorCard from "./SponsorCard";
 
 export default function Posts() {
   /*litt hardkode O_o  */
@@ -67,125 +67,13 @@ export default function Posts() {
           Welcome!
         </p>
       </div>
-
       <Video />
-
-      <div className="info-post">
-        <h1 className="info-post__header">Ana Cruise Quintet</h1>
-
-        <p className="info-post__content">
-          <img
-            src={
-              process.env.PUBLIC_URL +
-              "/images/ArtistImages/ana-cruise-trio.jpg"
-            }
-            alt="ana cruise trio"
-          ></img>
-          <br />
-          This group of musicians from Marseillan, boasts a broad repertoire
-          from the good oldies to contemporary music. Let them take you to that
-          “late night jazz club” feeling with their pleasant swing, bluesy and
-          jazzy tunes! With their charm and sharp wit, vocalist Gabrielle (on
-          double bass), and Christine on drums offer you their classics: each
-          piece is a story told together with Jeff, their creative guitarist.
-          <br />
-          <br />
-          The original trio was recently joined by Thierry on keyboard and
-          Stéphane on guitar. New horizons are opening up to create an
-          unexpected musical universe with simplicity and humor to wow the
-          audience with.
-        </p>
-      </div>
-
-      <div className="info-post">
-        <h1 className="info-post__header ">
-          Elisabeth Melander and the Cédric Chauveau Trio
-        </h1>
-
-        <p className="info-post__content">
-          <img
-            src={
-              process.env.PUBLIC_URL +
-              "/images/ArtistImages/melander_chauveau.jpg"
-            }
-            alt="Elisabeth Melander and Cédric Chauveau"
-          ></img>
-          <br />
-          Swedish jazz singer and vocal coach Elisabeth Melander (to the right),
-          is a renowned talent across several musical genres and other art
-          forms. As a singer, she has distinguished herself above all in jazz,
-          soul and gospel, and has been a lecturer at Malmö Academy of Music
-          since 1985. Singer, actor, composer, lyricist, this multi-talent has
-          appeared on jazz festivals, in TV and radio both in her native Sweden
-          and abroad. Her album "Reflections Of A Voice" was released to much
-          acclaim and won second runner-up in the Women's Vocal Section of "The
-          40th Annual Jazz Station Awards - The Best Jazz 2018".
-          <br />
-          <br />
-          Elisabeth often features as a guest soloist for ensembles, big bands
-          and choirs, and for Musiques en Thau she will be accompanied by the
-          Cédric Chauveau (to the left) with his Cédric Chauveau Trio.
-        </p>
-      </div>
-
-      <div className="info-post">
-        <h1 className="info-post__header ">Elisabeth Jazz Quartet</h1>
-
-        <p className="info-post__content">
-          <img
-            src={
-              process.env.PUBLIC_URL +
-              "/images/ArtistImages/Cédric_Chauveau_trio.png"
-            }
-            alt="Cédric Chauveau Trio"
-          ></img>
-          <br />
-          The group is composed of Elizabeth Melander and a trio with Cédric
-          Chauveau (piano), Michel Altier (double bass) and Michael
-          Santanastasio (drums). The trio are seasoned musicians, who all come
-          from the same region, have been playing together regularly for many
-          years. With their professional groove and common passion for jazz,
-          they are bringing this exceptional concert to new heights!
-        </p>
-      </div>
-
-      <div className="info-post">
-        <h1 className="info-post__header ">Hot Club de Norvège</h1>
-
-        <p className="info-post__content">
-          <img
-            src={
-              process.env.PUBLIC_URL +
-              "/images/ArtistImages/hot_club_colours.jpg"
-            }
-            alt="Hot Club de Norvège"
-          ></img>
-          <br />
-          The Scandinavian standard for hot swing!
-          <br />
-          Founded in Oslo in 1979 by Jon Larsen, the group has toured
-          continuously in Norway and around the world for over 40 years. Larsen
-          has released dozens of albums, with Django Reinhardt and his Quintette
-          du Hot Club de France as his main inspiration.
-          <br />
-          <br />
-          Spearheading the revival of gypsy jazz worldwide in the 80s, the group
-          received numerous awards and collaborated with the biggest names in
-          the genre, such as Stochelo Rosenberg, Biréli Lagrène, Angelo Debarre,
-          Jimmy Rosenberg, Adrien Moignard or Florin Niculescu, as well as
-          artists like Jon Gordon or Howard Alden. Other collaborations include
-          string ensembles such as the Camelia Strykekvartett and the symphony
-          orchestras of Kristiansand, Tromsø and Trondheim (Norway).
-          <br />
-          <br />
-          First a trio, the band has grown and gone through a few line-up
-          changes over the years. Today it consists of founding member Svein
-          Aarbostad (double bass), violinist/harmonicist Finn Hauge, French
-          guitarist Gildas Le Pape and newcomer Ola Erlien. With members aged 22
-          to 72, the group brilliantly demonstrates that jazz defies all
-          borders!
-        </p>
-      </div>
+      {Object.values(entries).map(({ title, description, image }) => {
+        return (
+          <InfoPost title={title} description={description} image={image} />
+        );
+      })}
+      <SponsorCard />
     </div>
   );
 }

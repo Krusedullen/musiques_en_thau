@@ -28,10 +28,6 @@ export default function ArtistReel(): JSX.Element {
       <br />
       <EmbededMap />
       <br />
-      <div className="sponsors-section">
-        <h1 className="artist-reel__header">Sponsors</h1>
-        <p>Coming soon</p>
-      </div>
     </div>
   );
 }
