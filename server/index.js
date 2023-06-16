@@ -7,10 +7,9 @@ const app = express();
 app.use(express.static(path.resolve(__dirname, "../client/build")));
 
 // All remaining requests return the React app, so it can handle routing.
-app.get("/", function (request, response) {
-  //request.cache.clear();
+app.get("/", function (req, res) {
   //response
-  response.cache
+  res.cache
     .clear()
     .sendFile(path.resolve(__dirname, "../client/build", "index.html"));
 });
