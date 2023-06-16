@@ -1,8 +1,17 @@
-import { GoogleMap, useLoadScript, MarkerF } from "@react-google-maps/api";
-
-import React, { useMemo, useState } from "react";
+import React /*{ useMemo, useState }*/ from "react";
+//import { GoogleMap, useLoadScript, MarkerF } from "@react-google-maps/api";
 
 export default function EmbededMap() {
+  return (
+    <div className="embeded-map">
+      <iframe
+        title="Marseillan Map"
+        src="https://storage.googleapis.com/maps-solutions-s2uryz5085/locator-plus/v53z/locator-plus.html"
+        loading="lazy"
+      ></iframe>
+    </div>
+  );
+  /*
   type DefaultProps = {
     center: {
       lat: number;
@@ -63,5 +72,5 @@ export default function EmbededMap() {
         </GoogleMap>
       </div>
     );
-  }
+  }*/
 }
