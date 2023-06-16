@@ -129,7 +129,7 @@ export default function Posts() {
       </div>
 
       <div className="info-post">
-        <h1 className="info-post__header ">Cédric Chauveau Trio</h1>
+        <h1 className="info-post__header ">Elisabeth Jazz Quartet</h1>
 
         <p className="info-post__content">
           <img
@@ -140,12 +140,12 @@ export default function Posts() {
             alt="Cédric Chauveau Trio"
           ></img>
           <br />
-          The trio is composed of Cédric Chauveau (piano), Michel Altier (double
-          bass) and Michael Santanastasio (drums). These three seasoned
-          musicians, who all come from the same region, have been playing
-          together regularly for many years. With their professional groove and
-          common passion for jazz, they are bringing this exceptional concert to
-          new heights!
+          The group is composed of Elizabeth Melander and a trio with Cédric
+          Chauveau (piano), Michel Altier (double bass) and Michael
+          Santanastasio (drums). The trio are seasoned musicians, who all come
+          from the same region, have been playing together regularly for many
+          years. With their professional groove and common passion for jazz,
+          they are bringing this exceptional concert to new heights!
         </p>
       </div>
 
