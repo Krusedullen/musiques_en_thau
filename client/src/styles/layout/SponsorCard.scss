@@ -1,3 +1,4 @@
+
 .sponsor-card {
   display: flex;
   flex-direction: column;
@@ -5,6 +6,7 @@
   overflow: hidden;
   border-radius: 4px;
   padding:  5px 0px;
+ 
 
   .sponsor-card__header {
     max-width: 100%;
@@ -13,14 +15,20 @@
     font-size: 1.4rem;
     text-align: center;
     color: $color-accent-medium;
+    
   }
   .sponsor-card__content {
     max-width: 100%;  
   }
-  
+
   img {
     display: block;
     margin: auto;
     max-width: 100%;
   }
+
 }
+
+@media (min-width: 640px) {
+    
+  }

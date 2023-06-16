@@ -2,6 +2,7 @@ import React from "react";
 import ArtistCard from "./ArtistCard";
 import { artists } from "../Utils/artists";
 import EmbededMap from "./EmbededMap";
+import SponsorCard from "./SponsorCard";
 
 export default function ArtistReel(): JSX.Element {
   const artistCards = Object.values(artists).map(
@@ -26,8 +27,11 @@ export default function ArtistReel(): JSX.Element {
       </div>
 
       <br />
-      <EmbededMap />
-      <br />
+      <div className="desktop-only">
+        <EmbededMap />
+        <br />
+        <SponsorCard />
+      </div>
     </div>
   );
 }
