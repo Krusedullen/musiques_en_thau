@@ -4,13 +4,15 @@ const port = process.env.PORT || 5000;
 
 const app = express();
 // Priority serve any static files.
-app.use("../client/build", express.static(path.join(__dirname, "build")));
+app.use(express.static(path.resolve(__dirname, "../client/build")));
 
 // All remaining requests return the React app, so it can handle routing.
 app.get("/", function (request, response) {
-  request.cache.clear();
+  //request.cache.clear();
   //response
-  response.sendFile(path.resolve(__dirname, "../client/build", "index.html"));
+  response.cache
+    .clear()
+    .sendFile(path.resolve(__dirname, "../client/build", "index.html"));
 });
 app.listen(port, () => console.log(`Listening on port ${port}`));
 
