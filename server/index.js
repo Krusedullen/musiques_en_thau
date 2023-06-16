@@ -8,8 +8,7 @@ const app = express();
 app.use(express.static(path.resolve(__dirname, "../client/build")));
 
 // All remaining requests return the React app, so it can handle routing.
-app.get("*", function (request, response) {
-  
+app.get("/*", function (request, response) {
   const clearCacheData = () => {
     //clearing cache data to display latest version of static files
     caches.keys().then((names) => {
