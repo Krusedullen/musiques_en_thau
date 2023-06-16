@@ -1,6 +1,6 @@
 {
   "name": "musiques_server",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "node server",
   "homepage": "https://musiquesenthau.com/",
   "engines": {
