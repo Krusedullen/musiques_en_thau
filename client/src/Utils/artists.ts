@@ -27,7 +27,7 @@ export const artists = {
   //fiks link!!
   person4: {
     id: "34568",
-    navn: "Ana Cruise Trio",
+    navn: "Ana Cruise Quintet",
     bio: "",
     src: "/images/ArtistImages/ana_cruise_avatar_1.png",
     artistpage: "https://krusedullen.github.io/musiques_en_thau/",
