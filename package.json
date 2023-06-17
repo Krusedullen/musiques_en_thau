@@ -33,6 +33,9 @@
   "license": "ISC",
   "dependencies": {
     "@react-google-maps/api": "^2.18.1",
-    "express": "^4.18.2"
+    "dom": "^0.0.3",
+    "express": "^4.18.2",
+    "npm": "^9.7.1",
+    "react": "^18.2.0"
   }
 }
