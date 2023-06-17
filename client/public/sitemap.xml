@@ -4,13 +4,5 @@
         <loc>https://musiquesenthau.com</loc>
         <lastmod>2023-06-17</lastmod>
         <changefreq>daily</changefreq>
-        <image:image>
-            <image:loc>https://musiquesenthau.com/images/musiques_sponsors_poster.jpg</image:loc>
-        </image:image>
-        <video:video>
-            <video:content_loc>https://musiquesenthau.com/videos/musique_promo_vid.mp4</video:content_loc>
-            <video:description>Summer Jazz Festival at the port of Marseillan.</video:description>
-            <video:live>no</video:live>
-        </video:video>
     </url>
 </urlset> 
