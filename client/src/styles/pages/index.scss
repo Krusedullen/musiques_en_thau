@@ -1,11 +1,10 @@
-
 @import "../variables";
 //Utils
 
-
 //Styles
 @import "./App", "../layout/ArtistReel", "../layout/MainHeader",
-  "../layout/ImageSlideshow", "../layout/Posts", "../layout/Video", "../layout/EmbededMap", "../layout/SponsorCard";
+  "../layout/ImageSlideshow", "../layout/Posts", "../layout/Video",
+  "../layout/EmbededMap", "../layout/SponsorCard","../layout/Card";
 body {
   margin: 0;
   font-size: 16px;
@@ -16,7 +15,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: $color-grey-mediumLight;
 }
-.marked-text{
+.marked-text {
   background-color: yellow;
 }
 

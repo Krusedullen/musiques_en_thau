@@ -1,0 +1,29 @@
+#error-page{
+    max-width: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 100px 10px 0 10px;
+    padding: 10px;
+ 
+       
+    p{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    i{
+        color: #ff0000;
+    }
+
+    .logo{
+        max-width: 50px;
+        margin-bottom: 20px;
+    }
+
+    @media (min-width: 640px){
+        margin: 100px auto auto auto;
+    }
+    
+}
