@@ -12,6 +12,14 @@ var options = {
 
 const app = express();
 
+/* ENABLE CACHE-CONTROL HEADER TO BE EXPOSED FOR TROUBLE SHOOTING IN DEV TOOLS
+  app.all("*", function (req, res, next) {
+  res.header("Access-Control-Expose-Headers", "*");
+  res.header("Access-Control-Allow-Headers", "*");
+  next();
+});
+*/
+
 app.use(nocache());
 app.set('etag', false);
 
