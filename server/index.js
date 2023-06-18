@@ -4,7 +4,7 @@ const port = process.env.PORT || 5000;
 
 var options = {
   //etag: false,
-  maxAge: 300,
+  maxAge: 600,
 };
 
 const app = express();
