@@ -1,6 +1,6 @@
 {
   "name": "musiques_server",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "description": "node server",
   "homepage": "https://musiquesenthau.com/",
   "engines": {
@@ -33,6 +33,7 @@
   "license": "ISC",
   "dependencies": {
     "@react-google-maps/api": "^2.18.1",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "nocache": "^4.0.0"
   }
 }
