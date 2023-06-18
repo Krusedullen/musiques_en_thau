@@ -14,19 +14,19 @@ const app = express();
 
 app.use(nocache());
 app.set('etag', false);
-//Priority serve any static files. This has its own cache system.
-app.use(
-  express.static(path.resolve(__dirname, "../client/build"), {
-    maxage: "5000", // uses milliseconds per docs
-  })
-);
-
 
 // All remaining requests return the React app, so it can handle routing.
 app.get("/", function (req, res) {
   //response
   res.sendFile(path.resolve(__dirname, "../client/build", "index.html"));
 });
+
+//Priority serve any static files. This has its own cache system.
+app.use(
+  express.static(path.resolve(__dirname, "../client/build"), {
+    maxage: "5000", // uses milliseconds per docs
+  })
+);
 
 //listener on port
 app.listen(port, () => console.log(`Listening on port ${port}`));
