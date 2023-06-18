@@ -114,7 +114,7 @@ export const customPoster = {
         follows:
         <br />
         <br />
-        <p className="info-post__content info-post__temp-list-title">
+        <div className="info-post__content info-post__temp-list-title">
           <b>Port of Marseillan June 30th 2023</b>
           <ul>
             <li>
@@ -135,7 +135,7 @@ export const customPoster = {
               <b>23.30</b> …..end of performances…or…
             </li>
           </ul>
-        </p>
+        </div>
         <br />
         This is a great opportunity to experience the absolutely best jazz
         musicians in Europe for FREE!

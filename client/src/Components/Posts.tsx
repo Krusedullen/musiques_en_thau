@@ -20,21 +20,22 @@ export default function Posts() {
         <h1 className="info-post__header">
           JUNE 30th, MARSEILLAN: "MUSIQUES EN THAU" JAZZ FESTIVAL!
         </h1>
-        <p className="info-post__content">
-          Meet great musicians and experience the music in the harbor of the old
-          and picturesque town of Marseillan.
+        <div className="info-post__content">
+          <p>
+            Meet great musicians and experience the music in the harbor of the
+            old and picturesque town of Marseillan.
+            <br />
+            <br />
+            This is a year to commemorate the well known Django Reinhardt who
+            died 70 years ago.
+            <br />
+            <br />
+            So, through hard work with a good group of french, swedish and
+            norwegian forces, we, the association «Musique en Thau» have
+            composed a program as follows:
+          </p>
           <br />
-          <br />
-          This is a year to commemorate the well known Django Reinhardt who died
-          70 years ago.
-          <br />
-          <br />
-          So, through hard work with a good group of french, swedish and
-          norwegian forces, we, the association «Musique en Thau» have composed
-          a program as follows:
-          <br />
-          <br />
-          <p className="info-post__content info-post__temp-list-title">
+          <div className="info-post__content info-post__temp-list-title">
             <b>Port of Marseillan June 30th 2023</b>
             <ul>
               <li>
@@ -55,17 +56,19 @@ export default function Posts() {
                 <b>23.30</b> …..end of performances…or…
               </li>
             </ul>
+          </div>
+          <br />
+          <p>
+            This is a great opportunity to experience the absolutely best jazz
+            musicians in Europe for FREE!
+            <br />
+            <br />
+            Don't miss it!
+            <br />
+            <br />
+            Welcome!
           </p>
-          <br />
-          This is a great opportunity to experience the absolutely best jazz
-          musicians in Europe for FREE!
-          <br />
-          <br />
-          Don't miss it!
-          <br />
-          <br />
-          Welcome!
-        </p>
+        </div>
       </div>
       <Video />
       {Object.values(entries).map(({ title, description, image }) => {

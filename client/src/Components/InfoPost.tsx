@@ -10,11 +10,11 @@ const InfoPost: React.FC<infoPostProps> = ({ title, image, description }) => {
   return (
     <div className="info-post">
       <h1 className="info-post__header">{title}</h1>
-      <p className="info-post__content">
+      <div className="info-post__content">
         <img src={process.env.PUBLIC_URL + image} alt={title}></img>
         <br />
         {description}
-      </p>
+      </div>
     </div>
   );
 };
@@ -28,10 +28,10 @@ export const customPost1: React.FC<infoPostProps> = ({
     <div className="info-post">
       <img src={process.env.PUBLIC_URL + image} alt={title}></img>
       <h1 className="info-post__header">{title}</h1>
-      <p className="info-post__content">
+      <div className="info-post__content">
         <br />
         {description}
-      </p>
+      </div>
     </div>
   );
 };

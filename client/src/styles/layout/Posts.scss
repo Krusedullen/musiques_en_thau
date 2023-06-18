@@ -46,8 +46,11 @@
   //temp classes
   .info-post__temp-list-title{
     padding-right: 10px;
-    
     font-size: 16px;
+    ul{
+      padding-inline-start: 20px;
+      
+    }
     li{
       list-style-type:none;
       padding-bottom: 6px;

@@ -19,8 +19,6 @@ app.use((req, res, next) => {
 });
 */
 
-//Priority serve any static files. This has its own cache system. may enable when site becomes more dynamic.
-app.use(express.static(path.resolve(__dirname, "../client/build")));
 
 //http-header with cache control:  res.set("Cache-Control", "no-store") eller res.append()
 
@@ -29,6 +27,13 @@ app.get("/", function (req, res) {
   //response
   res.sendFile(path.resolve(__dirname, "../client/build", "index.html"));
 });
+
+
+//Priority serve any static files. This has its own cache system. may enable when site becomes more dynamic.
+app.use(express.static(path.resolve(__dirname, "../client/build")));
+
+
+//listener on port
 app.listen(port, () => console.log(`Listening on port ${port}`));
 
 
