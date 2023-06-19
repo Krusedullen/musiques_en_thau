@@ -15,11 +15,11 @@ const router = createBrowserRouter([
     children: [
       {
         path: "",
-        element: <MainPage languag="english" />,
+        element: <MainPage />,
       },
       {
         path: "french",
-        element: <MainPage languag="french" />,
+        element: <MainPage />,
       },
     ],
   },
