@@ -7,18 +7,18 @@ export const entries = {
     image: "/images/ArtistImages/ana-cruise-trio.jpg",
     description: (
       <div>
-        This group of musicians from Marseillan, boasts a broad repertoire
-          from the good oldies to contemporary music. Let them take you to that
-          “late night jazz club” feeling with their pleasant swing, bluesy and
-          jazzy tunes! With their charm and sharp wit, vocalist Gabrielle (on
-          double bass), and Christine on drums offer you their classics: each
-          piece is a story told together with Jeff, their creative guitarist.
-          <br />
-          <br />
-          The original trio was recently joined by Thierry on keyboard and
-          Stéphane on guitar. New horizons are opening up to create an
-          unexpected musical universe with simplicity and humor to wow the
-          audience with.
+        This group of musicians from <span translate="no">Marseillan</span>,
+        boasts a broad repertoire from the good oldies to contemporary music.
+        Let them take you to that “late night jazz club” feeling with their
+        pleasant swing, bluesy and jazzy tunes! With their charm and sharp wit,
+        vocalist Gabrielle (on double bass), and Christine on drums offer you
+        their classics: each piece is a story told together with Jeff, their
+        creative guitarist.
+        <br />
+        <br />
+        The original trio was recently joined by Thierry on keyboard and
+        Stéphane on guitar. New horizons are opening up to create an unexpected
+        musical universe with simplicity and humor to wow the audience with.
       </div>
     ),
   },
@@ -29,19 +29,27 @@ export const entries = {
     description: (
       <div>
         Swedish jazz singer and vocal coach Elisabeth Melander (to the right),
-          is a renowned talent across several musical genres and other art
-          forms. As a singer, she has distinguished herself above all in jazz,
-          soul and gospel, and has been a lecturer at Malmö Academy of Music
-          since 1985. Singer, actor, composer, lyricist, this multi-talent has
-          appeared on jazz festivals, in TV and radio both in her native Sweden
-          and abroad. Her album "Reflections Of A Voice" was released to much
-          acclaim and won second runner-up in the Women's Vocal Section of "The
-          40th Annual Jazz Station Awards - The Best Jazz 2018".
-          <br />
-          <br />
-          Elisabeth often features as a guest soloist for ensembles, big bands
-          and choirs, and for Musiques en Thau she will be accompanied by the
-          Cédric Chauveau (to the left) with his Cédric Chauveau Trio.
+        is a renowned talent across several musical genres and other art forms.
+        As a singer, she has distinguished herself above all in jazz, soul and
+        gospel, and has been a lecturer at{" "}
+        <span translate="no">Malmö Academy of Music</span>
+        since 1985. Singer, actor, composer, lyricist, this multi-talent has
+        appeared on jazz festivals, in TV and radio both in her native Sweden
+        and abroad. Her album{" "}
+        <span translate="no">"Reflections Of A Voice" </span>was released to
+        much acclaim and won second runner-up in the Women's Vocal Section of
+        <span translate="no">
+          {" "}
+          "The 40th Annual Jazz Station Awards - The Best Jazz 2018"
+        </span>
+        .
+        <br />
+        <br />
+        Elisabeth often features as a guest soloist for ensembles, big bands and
+        choirs, and for <span translate="no">Musiques en Thau</span> she will be
+        accompanied by the
+        <span translate="no">Cédric Chauveau</span> (to the left) with his{" "}
+        <span translate="no">Cédric Chauveau Trio.</span>
       </div>
     ),
   },
@@ -50,7 +58,8 @@ export const entries = {
     key: "entry8",
     title: "Elisabeth Jazz Quartet",
     image: "/images/ArtistImages/Cédric_Chauveau_trio.png",
-    description: "The group is composed of Elizabeth Melander and a trio with Cédric Chauveau (piano), Michel Altier (double bass) and Michael Santanastasio (drums). The trio are seasoned musicians, who all come from the same region, have been playing together regularly for many years. With their professional groove and common passion for jazz, they are bringing this exceptional concert to new heights!",
+    description:
+      "The group is composed of Elizabeth Melander and a trio with Cédric Chauveau (piano), Michel Altier (double bass) and Michael Santanastasio (drums). The trio are seasoned musicians, who all come from the same region, have been playing together regularly for many years. With their professional groove and common passion for jazz, they are bringing this exceptional concert to new heights!",
   },
   entry9: {
     key: "entry9",
@@ -58,21 +67,26 @@ export const entries = {
     image: "/images/ArtistImages/hot_club_colours.jpg",
     description: (
       <div>
-        The Scandinavian standard for hot swing!
+        <span translate="no">The Scandinavian standard for hot swing!</span>
         <br />
         Founded in Oslo in 1979 by Jon Larsen, the group has toured continuously
         in Norway and around the world for over 40 years. Larsen has released
-        dozens of albums, with Django Reinhardt and his Quintette du Hot Club de
-        France as his main inspiration.
+        dozens of albums, with Django Reinhardt and his{" "}
+        <span translate="no">Quintette du Hot Club de France </span>as his main
+        inspiration.
         <br />
         <br />
-        Spearheading the revival of gypsy jazz worldwide in the 80s, the group
-        received numerous awards and collaborated with the biggest names in the
-        genre, such as Stochelo Rosenberg, Biréli Lagrène, Angelo Debarre, Jimmy
-        Rosenberg, Adrien Moignard or Florin Niculescu, as well as artists like
-        Jon Gordon or Howard Alden. Other collaborations include string
-        ensembles such as the Camelia Strykekvartett and the symphony orchestras
-        of Kristiansand, Tromsø and Trondheim (Norway).
+        Spearheading the revival of <span translate="no">gypsy jazz </span>
+        worldwide in the 80s, the group received numerous awards and
+        collaborated with the biggest names in the genre, such as{" "}
+        <span translate="no">
+          Stochelo Rosenberg, Biréli Lagrène, Angelo Debarre, Jimmy Rosenberg,
+          Adrien Moignard
+        </span>{" "}
+        or Florin Niculescu, as well as artists like Jon Gordon or Howard Alden.
+        Other collaborations include string ensembles such as the{" "}
+        <span translate="no">Camelia Strykekvartett</span> and the symphony
+        orchestras of Kristiansand, Tromsø and Trondheim (Norway).
         <br />
         <br />
         First a trio, the band has grown and gone through a few line-up changes
@@ -83,7 +97,6 @@ export const entries = {
       </div>
     ),
   },
-
 };
 /*
 entry: {
@@ -102,7 +115,7 @@ export const customPoster = {
     description: (
       <div>
         Meet great musicians and experience the music in the harbor of the old
-        and picturesque town of Marseillan.
+        and picturesque town of <span translate="no">Marseillan</span>.
         <br />
         <br />
         This is a year to commemorate the well known Django Reinhardt who died
@@ -110,12 +123,15 @@ export const customPoster = {
         <br />
         <br />
         So, through hard work with a good group of french, swedish and norwegian
-        forces, we, the association «Musique en Thau» have composed a program as
-        follows:
+        forces, we, the association
+        <span translate="no">«Musique en Thau» </span> have composed a program
+        as follows:
         <br />
         <br />
         <div className="info-post__content info-post__temp-list-title">
-          <b>Port of Marseillan June 30th 2023</b>
+          <b>
+            Port of <span translate="no">Marseillan</span> June 30th 2023
+          </b>
           <ul>
             <li>
               <b>19.30</b> The opening of the festival
