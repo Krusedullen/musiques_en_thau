@@ -7,7 +7,9 @@
   color: #d54000;
   min-height: 50px;
   padding: 0.8rem;
+  max-width: 100%;
   nav {
+    padding-bottom: 7px;
     gap: 1em;
     display: flex;
     align-items: flex-end;
@@ -28,15 +30,24 @@
   }
   // Mobile landscape, tablet
   @media (min-width: 640px) {
+    
     .logo {
       max-width: 30%;
       height:auto;
+    }
+    nav{
+      padding-bottom: 5px;
     }
 
   }
   // Desktop
   @media (min-width: 1024px) {
-    margin: 0 auto;
+    margin: auto;
+    padding-right: 1.8rem;
     max-width: $desktop-width;
+    nav{
+      padding-bottom: 3px;
+    }
+
   }
 }
