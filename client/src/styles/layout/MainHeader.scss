@@ -10,7 +10,7 @@
   max-width: 100%;
   nav {
     padding-bottom: 7px;
-    gap: 1em;
+    gap: 0.8em;
     display: flex;
     align-items: flex-end;
     a, //de fleste statuser for a vil ha denne stylingen. fjernet a:active, men må kanskje ekskludere flere?
@@ -21,7 +21,12 @@
       color: #d54000;
       text-decoration: none;
       cursor:pointer;
+      max-height: 30px;
     }
+  }
+  .nav-icon{
+    max-height: 30px;
+    aspect-ratio: 1/1;
   }
   .logo {
     max-width: 50%;

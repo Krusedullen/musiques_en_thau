@@ -37,7 +37,7 @@ export default function Posts(props: { language: string }) {
       {topPoster(language)}
       <Video />
       {buildEntries(language)}
-      <SponsorCard />
+      <SponsorCard language={language} />
     </div>
   );
 }

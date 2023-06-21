@@ -16,7 +16,13 @@ export default function Header(props: { changeLanguage: (arg0: string) => void; 
     <header className="main-header">
       <img className="logo" src={logo} alt="logo" />
       <nav className="menu">
-        <a href={musiquesFacebook}> Facebook </a>
+        <a href={musiquesFacebook}>
+          <img
+            src={process.env.PUBLIC_URL + "/images/facebook_logo_icon.png"}
+            alt="facebook"
+            className="nav-icon"
+          />
+        </a>
         <select defaultValue={"fr"} onChange={onChangeLang}>
           {LANGUAGES.map(({ code, label }) => (
             <option key={code} value={code}>

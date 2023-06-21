@@ -264,7 +264,7 @@ export const customPoster = {
           alt="hot_club_de_norvège"
         ></img>
         <h1 className="info-post__header">
-          JUNE 30th, MARSEILLAN: "MUSIQUES EN THAU" JAZZ FESTIVAL!
+          30 JUIN, MARSEILLAN : FESTIVAL DE JAZZ "MUSIQUES EN THAU" !
         </h1>
         <div className="info-post__content">
           <p>
@@ -282,7 +282,7 @@ export const customPoster = {
           </p>
           <br />
           <div className="info-post__content info-post__temp-list-title">
-            <b>Port of Marseillan June 30th 2023</b>
+            <b>Port de Marseillan 30 juin 2023</b>
             <ul>
               <li>
                 <b>19.30</b> Ouverture du festival
