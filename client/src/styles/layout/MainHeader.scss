@@ -8,6 +8,11 @@
   min-height: 50px;
   padding: 0.8rem;
   max-width: 100%;
+  .logo-link{
+    display: block;
+    max-width: 50%;  
+    height:auto;  
+  }
   nav {
     padding-bottom: 7px;
     gap: 0.8em;
@@ -29,15 +34,20 @@
     aspect-ratio: 1/1;
   }
   .logo {
-    max-width: 50%;
-    height:auto;
+    height: 100%;
+    max-width: 100%;
     object-fit: scale-down;
+    
   }
   // Mobile landscape, tablet
   @media (min-width: 640px) {
-    
+    .logo-link{
+      
+      max-width: 30%;  
+       
+    }
     .logo {
-      max-width: 30%;
+      max-width: 100%;
       height:auto;
     }
     nav{
