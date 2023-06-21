@@ -4,6 +4,7 @@ This is the home page of "Musique en Thau", a music organization based in Marsei
 
 Musique en Thau's passion project is it's jazz festival hosted in the port of Marseillan each summer.
 
+accessed at: https://musiquesenthau.com/
 
 ### Languages and Frameworks
 React.js
