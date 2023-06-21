@@ -1,27 +1,6 @@
 import React from "react";
 
 export const entries = {
-  entry5: {
-    key: "entry5",
-    title: "Ana Cruise Quintet",
-    image: "/images/ArtistImages/ana-cruise-trio.jpg",
-    description: (
-      <div>
-        This group of musicians from <span translate="no">Marseillan</span>,
-        boasts a broad repertoire from the good oldies to contemporary music.
-        Let them take you to that “late night jazz club” feeling with their
-        pleasant swing, bluesy and jazzy tunes! With their charm and sharp wit,
-        vocalist Gabrielle (on double bass), and Christine on drums offer you
-        their classics: each piece is a story told together with Jeff, their
-        creative guitarist.
-        <br />
-        <br />
-        The original trio was recently joined by Thierry on keyboard and
-        Stéphane on guitar. New horizons are opening up to create an unexpected
-        musical universe with simplicity and humor to wow the audience with.
-      </div>
-    ),
-  },
   entry7: {
     key: "entry7",
     title: "Elisabeth Melander and the Cédric Chauveau Trio",
@@ -97,31 +76,30 @@ export const entries = {
       </div>
     ),
   },
-};
-
-export const frenchEntries = {
   entry5: {
     key: "entry5",
-    title: "Ana Cruise Quintette",
+    title: "Ana Cruise Quintet",
     image: "/images/ArtistImages/ana-cruise-trio.jpg",
     description: (
       <div>
-        Ce groupe de musiciens marseillannais possède un large répertoire allant
-        des bons vieux standards à un jazz plus contemporain. Laissez-les vous
-        emmener dans cette ambiance de « club de jazz de fin de soirée » avec
-        leurs agréables mélodies swing, bluesy et jazzy ! Avec leur charme et
-        leur esprit vif, la chanteuse Gabrielle (à la contrebasse) et Christine
-        à la batterie vous proposent leurs classiques : chaque morceau est une
-        histoire racontée avec Jeff, leur guitariste créatif.
+        This group of musicians from <span translate="no">Marseillan</span>,
+        boasts a broad repertoire from the good oldies to contemporary music.
+        Let them take you to that “late night jazz club” feeling with their
+        pleasant swing, bluesy and jazzy tunes! With their charm and sharp wit,
+        vocalist Gabrielle (on double bass), and Christine on drums offer you
+        their classics: each piece is a story told together with Jeff, their
+        creative guitarist.
         <br />
         <br />
-        Le trio original a été récemment rejoint par Thierry au clavier et
-        Stéphane à la guitare. De nouveaux horizons s'ouvrent pour créer un
-        univers musical inattendu avec simplicité et humour pour le plaisir du
-        public.
+        The original trio was recently joined by Thierry on keyboard and
+        Stéphane on guitar. New horizons are opening up to create an unexpected
+        musical universe with simplicity and humor to wow the audience with.
       </div>
     ),
   },
+};
+
+export const frenchEntries = {
   entry7: {
     key: "entry7",
     title: "Elisabeth Melander & Cédric Chauveau",
@@ -189,6 +167,28 @@ export const frenchEntries = {
       </div>
     ),
   },
+  entry5: {
+    key: "entry5",
+    title: "Ana Cruise Quintette",
+    image: "/images/ArtistImages/ana-cruise-trio.jpg",
+    description: (
+      <div>
+        Ce groupe de musiciens marseillannais possède un large répertoire allant
+        des bons vieux standards à un jazz plus contemporain. Laissez-les vous
+        emmener dans cette ambiance de « club de jazz de fin de soirée » avec
+        leurs agréables mélodies swing, bluesy et jazzy ! Avec leur charme et
+        leur esprit vif, la chanteuse Gabrielle (à la contrebasse) et Christine
+        à la batterie vous proposent leurs classiques : chaque morceau est une
+        histoire racontée avec Jeff, leur guitariste créatif.
+        <br />
+        <br />
+        Le trio original a été récemment rejoint par Thierry au clavier et
+        Stéphane à la guitare. De nouveaux horizons s'ouvrent pour créer un
+        univers musical inattendu avec simplicité et humour pour le plaisir du
+        public.
+      </div>
+    ),
+  },
 };
 
 /*
@@ -233,7 +233,7 @@ export const customPoster = {
             <b>Port of Marseillan June 30th 2023</b>
             <ul>
               <li>
-                <b>19.30</b> The opening of the festival
+                <b>19.00</b> The opening of the festival
               </li>
               <li>
                 <b>19.45</b> Ana Cruise Trio, Jazz, Marseillan France
@@ -299,7 +299,7 @@ export const customPoster = {
             <b>Port de Marseillan 30 juin 2023</b>
             <ul>
               <li>
-                <b>19.30</b> Ouverture du festival
+                <b>19.00</b> Ouverture du festival
               </li>
               <li>
                 <b>19.45</b> Ana Cruise Trio, Jazz, Marseillan France
