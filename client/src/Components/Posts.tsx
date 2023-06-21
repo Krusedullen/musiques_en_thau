@@ -7,7 +7,14 @@ import SponsorCard from "./SponsorCard";
 export default function Posts(props: { language: string }) {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const language: string = props.language;
-
+  
+  const topPoster = (lang: string) => {
+    let collection = customPoster.fr.content;
+    if (lang === "en") {
+      collection = customPoster.en.content;
+    } else collection = customPoster.fr.content;
+    return collection;
+  };
   //bygger entries fra en samling engelsk/fransk
   const buildEntries = (lang: string) => {
     let collection = frenchEntries;
@@ -27,6 +34,7 @@ export default function Posts(props: { language: string }) {
 
   return (
     <div className="posts">
+      {topPoster(language)}
       <Video />
       {buildEntries(language)}
       <SponsorCard />

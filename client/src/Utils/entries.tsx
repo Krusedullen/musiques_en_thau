@@ -88,7 +88,7 @@ export const entries = {
 export const frenchEntries = {
   entry5: {
     key: "entry5",
-    title: "Ana Cruise Quintet",
+    title: "Ana Cruise Quintette",
     image: "/images/ArtistImages/ana-cruise-trio.jpg",
     description: (
       <div>
@@ -285,34 +285,34 @@ export const customPoster = {
             <b>Port of Marseillan June 30th 2023</b>
             <ul>
               <li>
-                <b>19.30</b> The opening of the festival
+                <b>19.30</b> Ouverture du festival
               </li>
               <li>
                 <b>19.45</b> Ana Cruise Trio, Jazz, Marseillan France
               </li>
               <li>
-                <b>20.15</b> Elisabeth Melander with Cédric Chauveau trio, jazz,
-                Sweden and France
+                <b>20.15</b> Elisabeth Melander avec Cédric Chauveau trio, jazz,
+                Suède et France
               </li>
               <li>
-                <b>21.15</b> Hot Club de Norvège, jazz and tribute to Django
-                Reinhardt, Norway
+                <b>21.15</b> Hot Club de Norvège, jazz et hommage à Django
+                Reinhardt, Norvège
               </li>
               <li>
-                <b>23.30</b> …..end of performances…or…
+                <b>23.30</b> …fin des représentations…ou…
               </li>
             </ul>
           </div>
           <br />
           <p>
-            This is a great opportunity to experience the absolutely best jazz
-            musicians in Europe for FREE!
+            C'est une excellente occasion de découvrir GRATUITEMENT les
+            meilleurs musiciens de jazz d'Europe !
             <br />
             <br />
-            Don't miss it!
+            Ne le manquez pas !
             <br />
             <br />
-            Welcome!
+            Accueillir!
           </p>
         </div>
       </div>
