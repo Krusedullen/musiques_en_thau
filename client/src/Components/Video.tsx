@@ -1,7 +1,7 @@
 import React from "react";
 const Video1 = "/videos/musique_promo_vid.mp4";
 
-export default function Video(this: HTMLVideoElement): JSX.Element {
+export default function Video(): JSX.Element {
   const handleVideoVolume = (event: any) => {
     event.preventDefault();
     event.target.volume = 0.2;

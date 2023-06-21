@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Video from "./../Components/Video";
 import { entries, customPoster, frenchEntries } from "../Utils/entries";
 import InfoPost from "./InfoPost";
@@ -7,7 +7,7 @@ import SponsorCard from "./SponsorCard";
 export default function Posts(props: { language: string }) {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const language: string = props.language;
-  
+
   const topPoster = (lang: string) => {
     let collection = customPoster.fr.content;
     if (lang === "en") {
@@ -23,9 +23,14 @@ export default function Posts(props: { language: string }) {
     } else collection = frenchEntries;
     return (
       <>
-        {Object.values(collection).map(({ title, description, image }) => {
+        {Object.values(collection).map(({ title, description, image, key }) => {
           return (
-            <InfoPost title={title} description={description} image={image} />
+            <InfoPost
+              title={title}
+              description={description}
+              image={image}
+              key_id={key}
+            />
           );
         })}
       </>

@@ -4,11 +4,17 @@ type infoPostProps = {
   title: string;
   image: string;
   description: string | ReactElement;
+  key_id: string;
 };
 
-const InfoPost: React.FC<infoPostProps> = ({ title, image, description }) => {
+const InfoPost: React.FC<infoPostProps> = ({
+  title,
+  image,
+  description,
+  key_id,
+}) => {
   return (
-    <div className="info-post">
+    <div className="info-post" id={key_id} key={key_id}>
       <h1 className="info-post__header">{title}</h1>
       <div className="info-post__content">
         <img src={process.env.PUBLIC_URL + image} alt={title}></img>

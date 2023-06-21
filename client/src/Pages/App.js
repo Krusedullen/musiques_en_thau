@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Outlet, useOutletContext } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import Header from "../Components/MainHeader";
 
 function App() {
