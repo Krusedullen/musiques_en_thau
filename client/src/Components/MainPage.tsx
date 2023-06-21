@@ -2,15 +2,16 @@ import React from "react";
 import ImageSlideshow from "./ImageSlideshow";
 import ArtistReel from "./ArtistReel";
 import Posts from "./Posts";
+import { useOutletContext } from "react-router-dom";
 
 export default function MainPage() {
-  //props:string
-  //const language: string = props.language;
+  const language: string = useOutletContext();
+
   return (
     <div className="main-content">
-      <ArtistReel />
+      <ArtistReel language={language} />
       <div className="main-content-inner">
-        <Posts />
+        <Posts language={language} />
         <ImageSlideshow />
       </div>
     </div>

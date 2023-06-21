@@ -7,8 +7,10 @@
   color: #d54000;
   min-height: 50px;
   padding: 0.8rem;
+  max-width: 100%;
   nav {
-    gap: 1em;
+    padding-bottom: 7px;
+    gap: 0.8em;
     display: flex;
     align-items: flex-end;
     a, //de fleste statuser for a vil ha denne stylingen. fjernet a:active, men må kanskje ekskludere flere?
@@ -19,7 +21,12 @@
       color: #d54000;
       text-decoration: none;
       cursor:pointer;
+      max-height: 30px;
     }
+  }
+  .nav-icon{
+    max-height: 30px;
+    aspect-ratio: 1/1;
   }
   .logo {
     max-width: 50%;
@@ -28,15 +35,24 @@
   }
   // Mobile landscape, tablet
   @media (min-width: 640px) {
+    
     .logo {
       max-width: 30%;
       height:auto;
+    }
+    nav{
+      padding-bottom: 5px;
     }
 
   }
   // Desktop
   @media (min-width: 1024px) {
-    margin: 0 auto;
+    margin: auto;
+    padding-right: 1.8rem;
     max-width: $desktop-width;
+    nav{
+      padding-bottom: 3px;
+    }
+
   }
 }

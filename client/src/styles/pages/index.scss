@@ -5,7 +5,12 @@
 @import "./App", "../layout/ArtistReel", "../layout/MainHeader",
   "../layout/ImageSlideshow", "../layout/Posts", "../layout/Video",
   "../layout/EmbededMap", "../layout/SponsorCard","../layout/Card";
+
+  
+
 body {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   font-size: 16px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",

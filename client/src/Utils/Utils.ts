@@ -6,3 +6,13 @@ export const musiquesFacebook =
 
 export const translateFrench =
   "https://musiquesenthau-com.translate.goog/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=en-US&_x_tr_pto=wapp";
+
+  export const languages = {
+    english: {
+      navlink1: "français",
+    },
+
+    french: {
+      navlink1: "english",
+    },
+  };

@@ -1,14 +1,35 @@
 import React from "react";
 import logo from "../Images/Msign.png";
-import { musiquesFacebook, translateFrench } from "../Utils/Utils";
+import { musiquesFacebook} from "../Utils/Utils";
+import { LANGUAGES } from "../Utils/constants";
 
-export default function Header() {
+export default function Header(props: { changeLanguage: (arg0: string) => void; }) {
+  
+  const onChangeLang = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const lang_code = e.target.value;
+    //console.log(lang_code);
+    props.changeLanguage(lang_code);
+
+  };
+
   return (
     <header className="main-header">
       <img className="logo" src={logo} alt="logo" />
       <nav className="menu">
-        <a href={translateFrench}> français </a>
-        <a href={musiquesFacebook}> Facebook </a>
+        <a href={musiquesFacebook}>
+          <img
+            src={process.env.PUBLIC_URL + "/images/facebook_logo_icon.png"}
+            alt="facebook"
+            className="nav-icon"
+          />
+        </a>
+        <select defaultValue={"fr"} onChange={onChangeLang}>
+          {LANGUAGES.map(({ code, label }) => (
+            <option key={code} value={code}>
+              {label}
+            </option>
+          ))}
+        </select>
       </nav>
     </header>
   );
@@ -16,6 +37,16 @@ export default function Header() {
 
 /*
 <a href="https://www.bt.no/">test link</a>
-
+<a href={translateFrench}> french </a>
 <img src={logo} className="App-logo" alt="logo" />
+
+//later we can add links to about and home
+<div>
+        <NavLink className={isActive} to="/">
+          {t("home")}
+        </NavLink>
+        <NavLink className={isActive} to="/about">
+          {t("about")}
+        </NavLink>
+      </div>
 */

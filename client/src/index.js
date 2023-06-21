@@ -19,7 +19,7 @@ const router = createBrowserRouter([
       },
       {
         path: "french",
-        element: <div>translation coming</div>,
+        element: <MainPage />,
       },
     ],
   },

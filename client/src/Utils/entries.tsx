@@ -59,7 +59,7 @@ export const entries = {
     title: "Elisabeth Jazz Quartet",
     image: "/images/ArtistImages/Cédric_Chauveau_trio.png",
     description:
-      "The group is composed of Elizabeth Melander and a trio with Cédric Chauveau (piano), Michel Altier (double bass) and Michael Santanastasio (drums). The trio are seasoned musicians, who all come from the same region, have been playing together regularly for many years. With their professional groove and common passion for jazz, they are bringing this exceptional concert to new heights!",
+      "The group is composed of Elizabeth Melander and a trio with Cédric Chauveau (piano), Michel Altier (double bass) and Michael Santanastasio (drums). The trio are seasoned musicians, who have been playing together regularly for many years. With their professional groove and common passion for jazz, they are bringing this exceptional concert to new heights!",
   },
   entry9: {
     key: "entry9",
@@ -98,6 +98,99 @@ export const entries = {
     ),
   },
 };
+
+export const frenchEntries = {
+  entry5: {
+    key: "entry5",
+    title: "Ana Cruise Quintette",
+    image: "/images/ArtistImages/ana-cruise-trio.jpg",
+    description: (
+      <div>
+        Ce groupe de musiciens marseillannais possède un large répertoire allant
+        des bons vieux standards à un jazz plus contemporain. Laissez-les vous
+        emmener dans cette ambiance de « club de jazz de fin de soirée » avec
+        leurs agréables mélodies swing, bluesy et jazzy ! Avec leur charme et
+        leur esprit vif, la chanteuse Gabrielle (à la contrebasse) et Christine
+        à la batterie vous proposent leurs classiques : chaque morceau est une
+        histoire racontée avec Jeff, leur guitariste créatif.
+        <br />
+        <br />
+        Le trio original a été récemment rejoint par Thierry au clavier et
+        Stéphane à la guitare. De nouveaux horizons s'ouvrent pour créer un
+        univers musical inattendu avec simplicité et humour pour le plaisir du
+        public.
+      </div>
+    ),
+  },
+  entry7: {
+    key: "entry7",
+    title: "Elisabeth Melander & Cédric Chauveau",
+    image: "/images/ArtistImages/melander_chauveau.jpg",
+    description: (
+      <div>
+        La chanteuse de jazz et coach vocal suédoise Elisabeth Melander (à
+        droite) est un talent reconnu dans plusieurs genres musicaux et autres
+        formes d'art. En tant que chanteuse, elle s'est illustrée avant tout
+        dans le jazz, la soul et le gospel, et est chargée de cours à l'Académie
+        de musique de Malmö depuis 1985. Chanteuse, comédienne, compositrice,
+        parolière, cette artiste aux multiples talents est apparaît
+        régulièrement dans des festivals de jazz, à la télévision et la radio
+        dans sa Suède natale et à l'étranger. Son album "Reflections Of A Voice"
+        est sorti avec beaucoup de succès et a remporté la deuxième place dans
+        la section vocale féminine des "The 40th Annual Jazz Station Awards -
+        The Best Jazz 2018".
+        <br />
+        <br />
+        Elisabeth se produit souvent comme soliste invitée par des ensembles,
+        big bands et chœurs, et pour Musiques en Thau, elle sera accompagnée par
+        Cédric Chauveau (à gauche) et d'autres jazzmen de talent.
+      </div>
+    ),
+  },
+
+  entry8: {
+    key: "entry8",
+    title: "Elisabeth Jazz Quartet",
+    image: "/images/ArtistImages/Cédric_Chauveau_trio.png",
+    description:
+      "Le trio qui accompagnera Elizabeth Melander est composé de Cédric Chauveau au piano, Michel Altier à la contrebasse et Michael Santanastasio à la batterie. Ces trois musiciens chevronnés jouent régulièrement ensemble depuis de nombreuses années. Avec leur groove professionnel et leur passion commune pour le jazz, ils portent ce concert exceptionnel vers de nouveaux sommets !",
+  },
+  entry9: {
+    key: "entry9",
+    title: "Hot Club de Norvège",
+    image: "/images/ArtistImages/hot_club_colours.jpg",
+    description: (
+      <div>
+        Hot Club de Norvège, la référence scandinave du hot swing!
+        <br />
+        Fondé à Oslo en 1979 sous l'impulsion de Jon Larsen, le groupe tourne
+        sans discontinuer en Norvège et dans le monde entier depuis plus de 40
+        ans. Il a également sorti plusieurs dizaines d'albums, avec pour
+        inspiration principale Django Reinhardt et son Quintette du Hot Club de
+        France.
+        <br />
+        <br />
+        Fer de lance du renouveau du jazz manouche au niveau mondial dans les
+        années 80, le groupe a reçu de nombreuses prix et collaboré avec les
+        plus grands noms du genre, comme Stochelo Rosenberg, Biréli Lagrène,
+        Angelo Debarre, Jimmy Rosenberg, Adrien Moignard ou Florin Niculescu,
+        ainsi que des artistes comme Jon Gordon ou Howard Alden. Il a aussi
+        collaboré avec des ensemble à cordes comme le Camelia Strykekvartett et
+        les orchestres symphoniques de Kristiansand, Tromsø et Trondheim
+        (Norvège).
+        <br />
+        <br />
+        D'abord un trio, le groupe s'est élargi et a connu quelques changements
+        de line-up au fil des années. Il se compose aujourd'hui du membre
+        fondateur Svein Aarbostad (contrebasse), du violoniste /harmoniciste
+        Finn Hauge, du guitariste français Gildas Le Pape et du nouveau venu Ola
+        Erlien. Avec des membres âgés de 22 à 72 ans, le groupe démontre avec
+        brio que le jazz défie toutes les frontières !
+      </div>
+    ),
+  },
+};
+
 /*
 entry: {
     key: "entry",
@@ -108,59 +201,134 @@ entry: {
   */
 
 export const customPoster = {
-  entry: {
-    key: "entryCustomPoster",
-    title: "JUNE 30th, MARSEILLAN: 'MUSIQUES EN THAU' JAZZ FESTIVAL!",
-    image: "/images/hot_club_de_norvège_poster.jpg",
-    description: (
-      <div>
-        Meet great musicians and experience the music in the harbor of the old
-        and picturesque town of <span translate="no">Marseillan</span>.
-        <br />
-        <br />
-        This is a year to commemorate the well known Django Reinhardt who died
-        70 years ago.
-        <br />
-        <br />
-        So, through hard work with a good group of french, swedish and norwegian
-        forces, we, the association
-        <span translate="no">«Musique en Thau» </span> have composed a program
-        as follows:
-        <br />
-        <br />
-        <div className="info-post__content info-post__temp-list-title">
-          <b>
-            Port of <span translate="no">Marseillan</span> June 30th 2023
-          </b>
-          <ul>
-            <li>
-              <b>19.30</b> The opening of the festival
-            </li>
-            <li>
-              <b>19.45</b> Ana Cruise Trio, Jazz, Marseillan France
-            </li>
-            <li>
-              <b>20.15</b> Elisabeth Melander with Cédric Chauveau trio, jazz,
-              Sweden and France
-            </li>
-            <li>
-              <b>21.15</b> Hot Club de Norvège, jazz and tribute to Django
-              Reinhardt, Norway
-            </li>
-            <li>
-              <b>23.30</b> …..end of performances…or…
-            </li>
-          </ul>
+  en: {
+    lang_code: "en",
+    content: (
+      <div className="info-post">
+        <img
+          src={
+            process.env.PUBLIC_URL + "/images/hot_club_de_norvège_poster.jpg"
+          }
+          alt="hot_club_de_norvège"
+        ></img>
+        <h1 className="info-post__header">
+          JUNE 30th, MARSEILLAN: "MUSIQUES EN THAU" JAZZ FESTIVAL!
+        </h1>
+        <div className="info-post__content">
+          <p>
+            Meet great musicians and experience the music in the harbor of the
+            old and picturesque town of Marseillan.
+            <br />
+            <br />
+            This is a year to commemorate the well known Django Reinhardt who
+            died 70 years ago.
+            <br />
+            <br />
+            So, through hard work with a good group of french, swedish and
+            norwegian forces, we, the association «Musique en Thau» have
+            composed a program as follows:
+          </p>
+          <br />
+          <div className="info-post__content info-post__temp-list-title">
+            <b>Port of Marseillan June 30th 2023</b>
+            <ul>
+              <li>
+                <b>19.30</b> The opening of the festival
+              </li>
+              <li>
+                <b>19.45</b> Ana Cruise Trio, Jazz, Marseillan France
+              </li>
+              <li>
+                <b>20.15</b> Elisabeth Melander with Cédric Chauveau trio, jazz,
+                Sweden and France
+              </li>
+              <li>
+                <b>21.15</b> Hot Club de Norvège, jazz and tribute to Django
+                Reinhardt, Norway
+              </li>
+              <li>
+                <b>23.30</b> …..end of performances…or…
+              </li>
+            </ul>
+          </div>
+          <br />
+          <p>
+            This is a great opportunity to experience the absolutely best jazz
+            musicians in Europe for FREE!
+            <br />
+            <br />
+            Don't miss it!
+            <br />
+            <br />
+            Welcome!
+          </p>
         </div>
-        <br />
-        This is a great opportunity to experience the absolutely best jazz
-        musicians in Europe for FREE!
-        <br />
-        <br />
-        Don't miss it!
-        <br />
-        <br />
-        Welcome!
+      </div>
+    ),
+  },
+
+  fr: {
+    lang_code: "fr",
+    content: (
+      <div className="info-post">
+        <img
+          src={
+            process.env.PUBLIC_URL + "/images/hot_club_de_norvège_poster.jpg"
+          }
+          alt="hot_club_de_norvège"
+        ></img>
+        <h1 className="info-post__header">
+          30 JUIN, MARSEILLAN : FESTIVAL DE JAZZ "MUSIQUES EN THAU" !
+        </h1>
+        <div className="info-post__content">
+          <p>
+            Venez rencontrer de grands musiciens et vivez la musique sur le port
+            de la vieille et pittoresque ville de Marseillan.
+            <br />
+            <br />
+            C'est une année pour commémorer le célèbre Django Reinhardt, décédé
+            il y a 70 ans.
+            <br />
+            <br />
+            Ainsi, grâce à un travail acharné et une collaboration
+            franco-suédoise et norvégienne, l'association «Musique en Thau» a
+            composé le programme qui suit:
+          </p>
+          <br />
+          <div className="info-post__content info-post__temp-list-title">
+            <b>Port de Marseillan 30 juin 2023</b>
+            <ul>
+              <li>
+                <b>19.30</b> Ouverture du festival
+              </li>
+              <li>
+                <b>19.45</b> Ana Cruise Trio, Jazz, Marseillan France
+              </li>
+              <li>
+                <b>20.15</b> Elisabeth Melander avec Cédric Chauveau trio, jazz,
+                Suède et France
+              </li>
+              <li>
+                <b>21.15</b> Hot Club de Norvège, jazz et hommage à Django
+                Reinhardt, Norvège
+              </li>
+              <li>
+                <b>23.30</b> …fin des représentations…ou…
+              </li>
+            </ul>
+          </div>
+          <br />
+          <p>
+            C'est une excellente occasion de découvrir GRATUITEMENT les
+            meilleurs musiciens de jazz d'Europe !
+            <br />
+            <br />
+            Ne le manquez pas !
+            <br />
+            <br />
+            Accueillir!
+          </p>
+        </div>
       </div>
     ),
   },
