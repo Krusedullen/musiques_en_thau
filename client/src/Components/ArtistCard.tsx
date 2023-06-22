@@ -18,20 +18,24 @@ const ArtistCard: React.FC<artistProps> = ({
   return (
     <div className="artist-card" id={id} key={id}>
       <a href={artistpage}>
-        <picture>
+        <picture className="artist-img">
           <source
+            className="artist-img"
             type="image/webp"
             srcSet={process.env.PUBLIC_URL + avatarImage + ".webp"}
           />
           <source
+            className="artist-img"
             type="image/jpeg"
             srcSet={process.env.PUBLIC_URL + avatarImage + ".jpg"}
           />
           <source
+            className="artist-img"
             type="image/jpeg"
             srcSet={process.env.PUBLIC_URL + avatarImage + ".png"}
           />
           <img
+            className="artist-img"
             src={process.env.PUBLIC_URL + avatarImage + ".jpg"}
             alt="avatar"
           ></img>

@@ -1,22 +1,19 @@
 export const images = {
-
   image0: {
     key: "0",
-    src: "/images/hot_club_de_norvège_poster.jpg",
+    src: "/images/hot_club_de_norvège_poster.webp",
     imgText: "hot club poster",
   },
   image1: {
     key: "1",
-    src: "/images/melander_singing.jpg",
+    src: "/images/melander_singing.webp",
     imgText: "musiques en thau",
   },
   image2: {
     key: "2",
-    src: "/images/melander_musiques_en_thau.jpg",
+    src: "/images/melander_musiques_en_thau.webp",
     imgText: "melander",
   },
-
-  
 };
 /*
 Hot Club de Norvège

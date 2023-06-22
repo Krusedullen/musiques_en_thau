@@ -1,8 +1,11 @@
 .artist-reel {
-  max-height: 160px;
-  padding-top: 0.4rem;
+  max-height: 175px;
+  height: fit-content;
+  padding: 7px 0px 2px 0px;
   background-color: $color-grey-light;
   max-width: 100%;
+  overflow: hidden;
+  
 
   .artist-reel__header {
     width: 100%;
@@ -13,9 +16,11 @@
     color: $color-accent-medium;
   }
   .artist-reel__artists {
+    height: 100%;
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
+    gap: 10px;
     padding: 0.6rem 0;
   }
   .artist-reel__artists::-webkit-scrollbar {
@@ -23,17 +28,25 @@
   }
 
   .artist-card {
-    min-width: 30vw;
+    min-width: 20vw;
+    max-height: 125px;
     margin: 0 0.6rem;
-    overflow-wrap: break-word;
+    overflow-wrap:break-word;
     text-align: center;
 
     img {
-      max-height: 75px;
+      height: 80px;
+      width: 88px;
+      object-fit:cover;
     }
 
     .artist-name {
-      font-size: 16px;
+      font-size: 13px;
+      font-weight: bold;
+      max-height: 35px;
+      overflow:hidden;
+      padding-bottom: 5px;
+      
     }
 
     .bio {
@@ -56,28 +69,33 @@
     flex: 1;
     order: 1;
     max-height: 100%;
-    //min-height: 900px;
-    height: fit-content;
+    width: 300px;
+    margin-left: 10px;
+    overflow: unset;
+    
 
     .artist-reel__artists {
       display: flex;
       flex-direction: column;
     }
     .artist-card {
+      height:250px;
       min-width: 0;
-      padding-bottom: 0.6rem;
+      padding-bottom: 90px;
       .bio {
         display: block;
+        padding-bottom: 10px;
       }
-      img {
-        max-width: 75%;
-        max-height: 100%;
+      .artist-img {
+        width: 220px;
+        height: 190px;
+        
       }
     }
 
     .artist-name {
-      font-size: 18px;
-      font-weight: bold;
+      font-size: 16px !important;
+      padding-bottom: 10px;      
     }
 
     //temp classes
