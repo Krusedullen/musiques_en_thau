@@ -12,11 +12,16 @@ var options = {
 
 const app = express();
 
+
 //ENABLE CACHE-CONTROL HEADER TO BE EXPOSED FOR TROUBLE SHOOTING IN DEV TOOLS
 //should be disabled later
   app.all("*", function (req, res, next) {
   res.header("Access-Control-Expose-Headers", "*");
   res.header("Access-Control-Allow-Headers", "*");
+  res.header(
+    "Content-Security-Policy",
+    "default-src 'self' https://musiquesenthau.com *.googleapis.com; img-src *;"
+  );
   next();
 });
 
