@@ -3,7 +3,7 @@ export const artists = {
     id: "12345",
     navn: "Elisabeth Melander",
     bio: "",
-    src: "/images/ArtistImages/elisabeth_melander_avatar_1",
+    src: "/images/ArtistImages/elisabeth_melander_avatar",
     artistpage: "https://portal.research.lu.se/en/persons/elisabeth-melander",
   },
 
@@ -28,7 +28,7 @@ export const artists = {
     id: "34568",
     navn: "Ana Cruise Quintet",
     bio: "",
-    src: "/images/ArtistImages/ana_cruise_avatar_1",
+    src: "/images/ArtistImages/ana_cruise_avatar",
     artistpage: "#entry5",
   },
 };

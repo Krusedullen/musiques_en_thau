@@ -8,6 +8,8 @@ type artistProps = {
   avatarImage: string;
   artistpage?: string;
 };
+
+
 const ArtistCard: React.FC<artistProps> = ({
   name,
   bio,
@@ -31,7 +33,7 @@ const ArtistCard: React.FC<artistProps> = ({
           />
           <source
             className="artist-img"
-            type="image/jpeg"
+            type="image/png"
             srcSet={process.env.PUBLIC_URL + avatarImage + ".png"}
           />
           <img

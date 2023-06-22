@@ -1,4 +1,5 @@
 import React from "react";
+import { postImages } from "./Utils";
 
 export const entries = {
   entry7: {
@@ -207,7 +208,7 @@ export const customPoster = {
       <div className="info-post">
         <img
           src={
-            process.env.PUBLIC_URL + "/images/hot_club_de_norvège_poster.jpg"
+            process.env.PUBLIC_URL + "/images/hot_club_de_norvège_poster.webp"
           }
           alt="hot_club_de_norvège"
         ></img>
@@ -273,7 +274,7 @@ export const customPoster = {
       <div className="info-post">
         <img
           src={
-            process.env.PUBLIC_URL + "/images/hot_club_de_norvège_poster.jpg"
+            process.env.PUBLIC_URL + "/images/hot_club_de_norvège_poster.webp"
           }
           alt="hot_club_de_norvège"
         ></img>
