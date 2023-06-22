@@ -1,6 +1,6 @@
 const express = require("express");
 const path = require("path");
-//const nocache = require('nocache');
+const nocache = require("nocache");
 const port = process.env.PORT || 5000;
 
 /*
@@ -21,13 +21,10 @@ app.all("*", function (req, res, next) {
     "Content-Security-Policy",
     "default-src 'self' https://musiquesenthau.com *.googleapis.com; img-src *;"
   );
-  res.setHeader("Surrogate-Control", "no-store");
-  res.setHeader("Cache-Control", "no-cache, must-revalidate, proxy-revalidate"); //no-store,
-  res.setHeader("Expires", "0");
   next();
 });
 
-//app.use(nocache());
+app.use(nocache());
 app.set("etag", false);
 
 // All remaining requests return the React app, so it can handle routing.
