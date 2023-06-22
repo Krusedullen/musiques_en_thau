@@ -17,7 +17,17 @@ const InfoPost: React.FC<infoPostProps> = ({
     <div className="info-post" id={key_id} key={key_id}>
       <h1 className="info-post__header">{title}</h1>
       <div className="info-post__content">
-        <img src={process.env.PUBLIC_URL + image} alt={title}></img>
+        <picture>
+          <source
+            type="image/webp"
+            srcSet={process.env.PUBLIC_URL + image + ".webp"}
+          />
+          <source
+            type="image/jpeg"
+            srcSet={process.env.PUBLIC_URL + image + ".jpg"}
+          />
+          <img src={process.env.PUBLIC_URL + image + ".jpg"} alt={title}></img>
+        </picture>
         <br />
         {description}
       </div>
@@ -32,7 +42,21 @@ export const customPost1: React.FC<infoPostProps> = ({
 }) => {
   return (
     <div className="info-post">
-      <img src={process.env.PUBLIC_URL + image} alt={title}></img>
+      <picture>
+        <source
+          type="image/webp"
+          srcSet={process.env.PUBLIC_URL + image + ".webp"}
+        />
+        <source
+          type="image/jpeg"
+          srcSet={process.env.PUBLIC_URL + image + ".jpg"}
+        />
+        <source
+          type="image/png"
+          srcSet={process.env.PUBLIC_URL + image + ".png"}
+        />
+        <img src={process.env.PUBLIC_URL + image + ".jpg"} alt={title}></img>
+      </picture>
       <h1 className="info-post__header">{title}</h1>
       <div className="info-post__content">
         <br />

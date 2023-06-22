@@ -4,7 +4,7 @@ export const entries = {
   entry7: {
     key: "entry7",
     title: "Elisabeth Melander and the Cédric Chauveau Trio",
-    image: "/images/ArtistImages/melander_chauveau.jpg",
+    image: "/images/ArtistImages/melander_chauveau",
     description: (
       <div>
         Swedish jazz singer and vocal coach Elisabeth Melander (to the right),
@@ -36,14 +36,14 @@ export const entries = {
   entry8: {
     key: "entry8",
     title: "Elisabeth Jazz Quartet",
-    image: "/images/ArtistImages/Cédric_Chauveau_trio.png",
+    image: "/images/ArtistImages/Cédric_Chauveau_trio",
     description:
       "The group is composed of Elizabeth Melander and a trio with Cédric Chauveau (piano), Michel Altier (double bass) and Michael Santanastasio (drums). The trio are seasoned musicians, who have been playing together regularly for many years. With their professional groove and common passion for jazz, they are bringing this exceptional concert to new heights!",
   },
   entry9: {
     key: "entry9",
     title: "Hot Club de Norvège",
-    image: "/images/ArtistImages/hot_club_colours.jpg",
+    image: "/images/ArtistImages/hot_club_colours",
     description: (
       <div>
         <span translate="no">The Scandinavian standard for hot swing!</span>
@@ -79,7 +79,7 @@ export const entries = {
   entry5: {
     key: "entry5",
     title: "Ana Cruise Quintet",
-    image: "/images/ArtistImages/ana-cruise-trio.jpg",
+    image: "/images/ArtistImages/ana-cruise-trio",
     description: (
       <div>
         This group of musicians from <span translate="no">Marseillan</span>,
@@ -103,7 +103,7 @@ export const frenchEntries = {
   entry7: {
     key: "entry7",
     title: "Elisabeth Melander & Cédric Chauveau",
-    image: "/images/ArtistImages/melander_chauveau.jpg",
+    image: "/images/ArtistImages/melander_chauveau",
     description: (
       <div>
         La chanteuse de jazz et coach vocal suédoise Elisabeth Melander (à
@@ -129,14 +129,14 @@ export const frenchEntries = {
   entry8: {
     key: "entry8",
     title: "Elisabeth Jazz Quartet",
-    image: "/images/ArtistImages/Cédric_Chauveau_trio.png",
+    image: "/images/ArtistImages/Cédric_Chauveau_trio",
     description:
       "Le trio qui accompagnera Elizabeth Melander est composé de Cédric Chauveau au piano, Michel Altier à la contrebasse et Michael Santanastasio à la batterie. Ces trois musiciens chevronnés jouent régulièrement ensemble depuis de nombreuses années. Avec leur groove professionnel et leur passion commune pour le jazz, ils portent ce concert exceptionnel vers de nouveaux sommets !",
   },
   entry9: {
     key: "entry9",
     title: "Hot Club de Norvège",
-    image: "/images/ArtistImages/hot_club_colours.jpg",
+    image: "/images/ArtistImages/hot_club_colours",
     description: (
       <div>
         Hot Club de Norvège, la référence scandinave du hot swing!
@@ -170,7 +170,7 @@ export const frenchEntries = {
   entry5: {
     key: "entry5",
     title: "Ana Cruise Quintette",
-    image: "/images/ArtistImages/ana-cruise-trio.jpg",
+    image: "/images/ArtistImages/ana-cruise-trio",
     description: (
       <div>
         Ce groupe de musiciens marseillannais possède un large répertoire allant

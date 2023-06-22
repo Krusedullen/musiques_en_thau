@@ -3,7 +3,7 @@ export const artists = {
     id: "12345",
     navn: "Elisabeth Melander",
     bio: "",
-    src: "/images/ArtistImages/elisabeth_melander_avatar_1.jpg",
+    src: "/images/ArtistImages/elisabeth_melander_avatar_1",
     artistpage: "https://portal.research.lu.se/en/persons/elisabeth-melander",
   },
 
@@ -11,7 +11,7 @@ export const artists = {
     id: "34566",
     navn: "Cédric Chauveau",
     bio: "",
-    src: "/images/ArtistImages/c_chauveau_avatar.jpg",
+    src: "/images/ArtistImages/c_chauveau_avatar",
     artistpage: "http://cedric-chauveau.com/",
   },
 
@@ -19,7 +19,7 @@ export const artists = {
     id: "23457",
     navn: "Hot Club de Norvège",
     bio: "",
-    src: "/images/ArtistImages/hot_club_colours_avatar.jpg",
+    src: "/images/ArtistImages/hot_club_colours_avatar",
     artistpage: "https://www.facebook.com/hotclubdenorvege/",
   },
 
@@ -28,7 +28,7 @@ export const artists = {
     id: "34568",
     navn: "Ana Cruise Quintet",
     bio: "",
-    src: "/images/ArtistImages/ana_cruise_avatar_1.png",
+    src: "/images/ArtistImages/ana_cruise_avatar_1",
     artistpage: "#entry5",
   },
 };

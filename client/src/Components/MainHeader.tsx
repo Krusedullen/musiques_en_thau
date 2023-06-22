@@ -20,11 +20,19 @@ export default function Header(props: { changeLanguage: (arg0: string) => void; 
 
       <nav className="menu">
         <a href={musiquesFacebook}>
-          <img
-            src={process.env.PUBLIC_URL + "/images/facebook_logo_icon.png"}
-            alt="facebook"
-            className="nav-icon"
-          />
+          <picture className="nav-icon">
+            <source
+              type="image/webp"
+              srcSet={
+                process.env.PUBLIC_URL + "/images/facebook_logo_icon.webp"
+              }
+            />
+            <img
+              src={process.env.PUBLIC_URL + "/images/facebook_logo_icon.png"}
+              alt="facebook"
+              className="nav-icon"
+            />
+          </picture>
         </a>
         <select defaultValue={"fr"} onChange={onChangeLang}>
           {LANGUAGES.map(({ code, label }) => (
