@@ -1,8 +1,9 @@
 import React from "react";
 import ArtistCard from "./ArtistCard";
 import { artists } from "../Utils/artists";
-import EmbededMap from "./EmbededMap";
 import SponsorCard from "./SponsorCard";
+//import EmbededMap from "./EmbededMap";
+
 
 export default function ArtistReel(props: { language: string }): JSX.Element {
   const language = props.language;
@@ -32,10 +33,11 @@ export default function ArtistReel(props: { language: string }): JSX.Element {
         <>{artistCards}</>
       </div>
 
-      <br />
+     
       <div className="desktop-only">
+        {/*  <br />
         <EmbededMap />
-        <br />
+        <br /> */}
         <SponsorCard language={language} />
       </div>
     </div>
