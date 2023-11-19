@@ -40,8 +40,8 @@ export default function Posts(props: { language: string }) {
   return (
     <div className="posts">
       {topPoster(language)}
-      <Video />
       {buildEntries(language)}
+      <Video />
       <SponsorCard language={language} />
     </div>
   );
