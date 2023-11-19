@@ -346,7 +346,7 @@ export const customPoster = {
       <div className="info-post">
         <img
           src={
-            process.env.PUBLIC_URL + "/images/christmas_poster.jpg"
+            process.env.PUBLIC_URL + "/images/christmas_poster.webp"
           }
           alt="christmas_concert"
         ></img>
@@ -367,7 +367,7 @@ export const customPoster = {
       <div className="info-post">
         <img
           src={
-            process.env.PUBLIC_URL + "/images/christmas_poster.jpg"
+            process.env.PUBLIC_URL + "/images/christmas_poster.webp"
           }
           alt="christmas_concert"
         ></img>
