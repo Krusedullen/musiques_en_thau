@@ -1,7 +1,7 @@
 import React from "react";
 import ArtistCard from "./ArtistCard";
 import { artists } from "../Utils/artists";
-import SponsorCard from "./SponsorCard";
+//import SponsorCard from "./SponsorCard";
 //import EmbededMap from "./EmbededMap";
 
 
@@ -22,8 +22,8 @@ export default function ArtistReel(props: { language: string }): JSX.Element {
   );
 
   const heading = (lang: string) => {
-    if (lang === "fr") return "Rencontrez les artistes";
-    else return "Meet The Artists";
+    if (lang === "fr") return "Rencontrez les artistes de l’édition 2023";
+    else return "Meet The Artists, summer 2023";
   };
 
   return (
@@ -37,8 +37,9 @@ export default function ArtistReel(props: { language: string }): JSX.Element {
       <div className="desktop-only">
         {/*  <br />
         <EmbededMap />
-        <br /> */}
+        <br /> 
         <SponsorCard language={language} />
+        */}
       </div>
     </div>
   );

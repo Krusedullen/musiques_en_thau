@@ -1,9 +1,72 @@
 import React from "react";
-import { postImages } from "./Utils";
+//import { postImages } from "./Utils";
+
 
 export const entries = {
-  entry7: {
-    key: "entry7",
+  entry5: {
+    entry6: {
+      key: "entry6",
+      title: "Thinking ahead for next summer can get you a long way!",
+      image: "/images/ecomobility.png",
+      description: (<div><p>Less is more, especially when it comes to CO2 emissions. The North to South Jazz Festival will take place at the Port of Marseillan from the 4th to the 7th of July 2024. By planning ahead for the use of sustainable mobility solutions adapted to short and long journeys when traveling there, you will contribute to reducing our event’s ecological footprint! 
+        More information to come as the festival approaches.</p></div>),
+    },
+  
+    key: "entry5",
+    title: "JUNE 30th, MARSEILLAN: 'MUSIQUES EN THAU' JAZZ FESTIVAL!",
+    image: "/images/hot_club_de_norvège_poster.webp",
+    description: (
+      <div><p>
+      Meet great musicians and experience the music in the harbor of the
+      old and picturesque town of Marseillan.
+      <br />
+      <br />
+      This is a year to commemorate the well known Django Reinhardt who
+      died 70 years ago.
+      <br />
+      <br />
+      So, through hard work with a good group of french, swedish and
+      norwegian forces, we, the association «Musique en Thau» have
+      composed a program as follows:
+    </p>
+    <br />
+    <div className="info-post__content info-post__temp-list-title">
+      <b>Port of Marseillan June 30th 2023</b>
+      <ul>
+        <li>
+          <b>19.00</b> The opening of the festival
+        </li>
+        <li>
+          <b>19.45</b> Ana Cruise Trio, Jazz, Marseillan France
+        </li>
+        <li>
+          <b>20.15</b> Elisabeth Melander with Cédric Chauveau trio, jazz,
+          Sweden and France
+        </li>
+        <li>
+          <b>21.15</b> Hot Club de Norvège, jazz and tribute to Django
+          Reinhardt, Norway
+        </li>
+        <li>
+          <b>23.30</b> …..end of performances…or…
+        </li>
+      </ul>
+    </div>
+    <br />
+    <p>
+      This is a great opportunity to experience the absolutely best jazz
+      musicians in Europe for FREE!
+      <br />
+      <br />
+      Don't miss it!
+      <br />
+      <br />
+      Welcome!
+    </p> </div>),
+  },
+
+  entry4: {
+    key: "entry4",
     title: "Elisabeth Melander and the Cédric Chauveau Trio",
     image: "/images/ArtistImages/melander_chauveau",
     description: (
@@ -34,15 +97,15 @@ export const entries = {
     ),
   },
 
-  entry8: {
-    key: "entry8",
+  entry3: {
+    key: "entry3",
     title: "Elisabeth Jazz Quartet",
     image: "/images/ArtistImages/Cédric_Chauveau_trio",
     description:
       "The group is composed of Elizabeth Melander and a trio with Cédric Chauveau (piano), Michel Altier (double bass) and Michael Santanastasio (drums). The trio are seasoned musicians, who have been playing together regularly for many years. With their professional groove and common passion for jazz, they are bringing this exceptional concert to new heights!",
   },
-  entry9: {
-    key: "entry9",
+  entry2: {
+    key: "entry2",
     title: "Hot Club de Norvège",
     image: "/images/ArtistImages/hot_club_colours",
     description: (
@@ -77,8 +140,8 @@ export const entries = {
       </div>
     ),
   },
-  entry5: {
-    key: "entry5",
+  entry1: {
+    key: "entry1",
     title: "Ana Cruise Quintet",
     image: "/images/ArtistImages/ana-cruise-trio",
     description: (
@@ -101,8 +164,82 @@ export const entries = {
 };
 
 export const frenchEntries = {
-  entry7: {
-    key: "entry7",
+  entry6: {
+    key: "entry6",
+    title: "Pensez à la mobilité écologique!",
+    image: "/images/ecomobility.png",
+    description: (
+      <div>
+        <p>
+          Moins c’est parfois plus, surtout quand on parle des émissions de CO2.
+          Pour rejoindre le North to South Jazz Festival édition 2024 qui se
+          déroulera sur le Port de Marseillan du 4 au 7 Juillet 2024, voici des
+          solutions de mobilité durables adaptées au trajets courts et longs.
+          Plus d’informations à venir à l’approche du festival.
+        </p>
+      </div>
+    ),
+  },
+
+  entry5: {
+    key: "entry5",
+    title: "Sponsors",
+    image: "/images/hot_club_de_norvège_poster.webp",
+    description: (
+      <div>
+        <p>
+          Venez rencontrer de grands musiciens et vivez la musique sur le port
+          de la vieille et pittoresque ville de Marseillan.
+          <br />
+          <br />
+          C'est une année pour commémorer le célèbre Django Reinhardt, décédé il
+          y a 70 ans.
+          <br />
+          <br />
+          Ainsi, grâce à un travail acharné et une collaboration franco-suédoise
+          et norvégienne, l'association «Musique en Thau» a composé le programme
+          qui suit:
+        </p>
+        <br />
+        <div className="info-post__content info-post__temp-list-title">
+          <b>Port de Marseillan 30 juin 2023</b>
+          <ul>
+            <li>
+              <b>19.00</b> Ouverture du festival
+            </li>
+            <li>
+              <b>19.45</b> Ana Cruise Trio, Jazz, Marseillan France
+            </li>
+            <li>
+              <b>20.15</b> Elisabeth Melander avec Cédric Chauveau trio, jazz,
+              Suède et France
+            </li>
+            <li>
+              <b>21.15</b> Hot Club de Norvège, jazz et hommage à Django
+              Reinhardt, Norvège
+            </li>
+            <li>
+              <b>23.30</b> …fin des représentations…ou…
+            </li>
+          </ul>
+        </div>
+        <br />
+        <p>
+          C'est une excellente occasion de découvrir GRATUITEMENT les meilleurs
+          musiciens de jazz d'Europe !
+          <br />
+          <br />
+          Ne le manquez pas !
+          <br />
+          <br />
+          Accueillir!
+        </p>
+      </div>
+    ),
+  },
+
+  entry4: {
+    key: "entry4",
     title: "Elisabeth Melander & Cédric Chauveau",
     image: "/images/ArtistImages/melander_chauveau",
     description: (
@@ -127,15 +264,15 @@ export const frenchEntries = {
     ),
   },
 
-  entry8: {
-    key: "entry8",
+  entry3: {
+    key: "entry3",
     title: "Elisabeth Jazz Quartet",
     image: "/images/ArtistImages/Cédric_Chauveau_trio",
     description:
       "Le trio qui accompagnera Elizabeth Melander est composé de Cédric Chauveau au piano, Michel Altier à la contrebasse et Michael Santanastasio à la batterie. Ces trois musiciens chevronnés jouent régulièrement ensemble depuis de nombreuses années. Avec leur groove professionnel et leur passion commune pour le jazz, ils portent ce concert exceptionnel vers de nouveaux sommets !",
   },
-  entry9: {
-    key: "entry9",
+  entry2: {
+    key: "entry2",
     title: "Hot Club de Norvège",
     image: "/images/ArtistImages/hot_club_colours",
     description: (
@@ -168,8 +305,8 @@ export const frenchEntries = {
       </div>
     ),
   },
-  entry5: {
-    key: "entry5",
+  entry1: {
+    key: "entry1",
     title: "Ana Cruise Quintette",
     image: "/images/ArtistImages/ana-cruise-trio",
     description: (
@@ -208,61 +345,16 @@ export const customPoster = {
       <div className="info-post">
         <img
           src={
-            process.env.PUBLIC_URL + "/images/hot_club_de_norvège_poster.webp"
+            process.env.PUBLIC_URL + "/images/christmas_poster.jpg"
           }
-          alt="hot_club_de_norvège"
+          alt="christmas_concert"
         ></img>
         <h1 className="info-post__header">
-          JUNE 30th, MARSEILLAN: "MUSIQUES EN THAU" JAZZ FESTIVAL!
+          December 10th 2023, MARSEILLAN: "CHRISTMAS CONCERT
         </h1>
         <div className="info-post__content">
-          <p>
-            Meet great musicians and experience the music in the harbor of the
-            old and picturesque town of Marseillan.
-            <br />
-            <br />
-            This is a year to commemorate the well known Django Reinhardt who
-            died 70 years ago.
-            <br />
-            <br />
-            So, through hard work with a good group of french, swedish and
-            norwegian forces, we, the association «Musique en Thau» have
-            composed a program as follows:
-          </p>
-          <br />
-          <div className="info-post__content info-post__temp-list-title">
-            <b>Port of Marseillan June 30th 2023</b>
-            <ul>
-              <li>
-                <b>19.00</b> The opening of the festival
-              </li>
-              <li>
-                <b>19.45</b> Ana Cruise Trio, Jazz, Marseillan France
-              </li>
-              <li>
-                <b>20.15</b> Elisabeth Melander with Cédric Chauveau trio, jazz,
-                Sweden and France
-              </li>
-              <li>
-                <b>21.15</b> Hot Club de Norvège, jazz and tribute to Django
-                Reinhardt, Norway
-              </li>
-              <li>
-                <b>23.30</b> …..end of performances…or…
-              </li>
-            </ul>
-          </div>
-          <br />
-          <p>
-            This is a great opportunity to experience the absolutely best jazz
-            musicians in Europe for FREE!
-            <br />
-            <br />
-            Don't miss it!
-            <br />
-            <br />
-            Welcome!
-          </p>
+          <p>Our Christmas concert this year features Scandinavian vocalist Elisabeth Melander accompanied on piano by the talented Cedric Chauveaux, with a special guest.
+          Free Entry!</p>
         </div>
       </div>
     ),
@@ -274,61 +366,16 @@ export const customPoster = {
       <div className="info-post">
         <img
           src={
-            process.env.PUBLIC_URL + "/images/hot_club_de_norvège_poster.webp"
+            process.env.PUBLIC_URL + "/images/christmas_poster.jpg"
           }
-          alt="hot_club_de_norvège"
+          alt="christmas_concert"
         ></img>
         <h1 className="info-post__header">
-          30 JUIN, MARSEILLAN : FESTIVAL DE JAZZ "MUSIQUES EN THAU" !
+          10 DÉCEMBRE 2023, MARSEILLAN : CONCERT DE NOËL
         </h1>
         <div className="info-post__content">
-          <p>
-            Venez rencontrer de grands musiciens et vivez la musique sur le port
-            de la vieille et pittoresque ville de Marseillan.
-            <br />
-            <br />
-            C'est une année pour commémorer le célèbre Django Reinhardt, décédé
-            il y a 70 ans.
-            <br />
-            <br />
-            Ainsi, grâce à un travail acharné et une collaboration
-            franco-suédoise et norvégienne, l'association «Musique en Thau» a
-            composé le programme qui suit:
-          </p>
-          <br />
-          <div className="info-post__content info-post__temp-list-title">
-            <b>Port de Marseillan 30 juin 2023</b>
-            <ul>
-              <li>
-                <b>19.00</b> Ouverture du festival
-              </li>
-              <li>
-                <b>19.45</b> Ana Cruise Trio, Jazz, Marseillan France
-              </li>
-              <li>
-                <b>20.15</b> Elisabeth Melander avec Cédric Chauveau trio, jazz,
-                Suède et France
-              </li>
-              <li>
-                <b>21.15</b> Hot Club de Norvège, jazz et hommage à Django
-                Reinhardt, Norvège
-              </li>
-              <li>
-                <b>23.30</b> …fin des représentations…ou…
-              </li>
-            </ul>
-          </div>
-          <br />
-          <p>
-            C'est une excellente occasion de découvrir GRATUITEMENT les
-            meilleurs musiciens de jazz d'Europe !
-            <br />
-            <br />
-            Ne le manquez pas !
-            <br />
-            <br />
-            Accueillir!
-          </p>
+        <p>Un concert de Noël avec la vocaliste Scandinave Elisabeth Melander accompagnée au piano par le talentueux Cedric Chauveaux, avec un invité spécial. 
+          Concert gratuit.</p>
         </div>
       </div>
     ),
