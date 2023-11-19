@@ -354,7 +354,7 @@ export const customPoster = {
           December 10th 2023, MARSEILLAN: CHRISTMAS CONCERT
         </h1>
         <div className="info-post__content">
-          <p>Our Christmas concert this year features Scandinavian vocalist Elisabeth Melander accompanied on piano by the talented Cedric Chauveaux, with a special guest.
+          <p>Our Christmas concert this year features Scandinavian vocalist Elisabeth Melander accompanied on piano by the talented Cedric Chauveau, with a special guest.
           Free Entry!</p>
         </div>
       </div>
@@ -375,7 +375,7 @@ export const customPoster = {
           10 DÉCEMBRE 2023, MARSEILLAN : CONCERT DE NOËL
         </h1>
         <div className="info-post__content">
-        <p>Un concert de Noël avec la vocaliste Scandinave Elisabeth Melander accompagnée au piano par le talentueux Cedric Chauveaux, avec un invité spécial. 
+        <p>Un concert de Noël avec la vocaliste Scandinave Elisabeth Melander accompagnée au piano par le talentueux Cedric Chauveau, avec un invité spécial. 
           Concert gratuit.</p>
         </div>
       </div>
