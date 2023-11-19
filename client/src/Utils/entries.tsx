@@ -7,7 +7,7 @@ export const entries = {
     entry6: {
       key: "entry6",
       title: "Thinking ahead for next summer can get you a long way!",
-      image: "/images/ecomobility.png",
+      image: "/images/ecomobility",
       description: (<div><p>Less is more, especially when it comes to CO2 emissions. The North to South Jazz Festival will take place at the Port of Marseillan from the 4th to the 7th of July 2024. By planning ahead for the use of sustainable mobility solutions adapted to short and long journeys when traveling there, you will contribute to reducing our event’s ecological footprint! 
         More information to come as the festival approaches.</p></div>),
     },
@@ -15,7 +15,7 @@ export const entries = {
     entry5: {
     key: "entry5",
     title: "JUNE 30th, MARSEILLAN: 'MUSIQUES EN THAU' JAZZ FESTIVAL!",
-    image: "/images/hot_club_de_norvège_poster.webp",
+    image: "/images/hot_club_de_norvège_poster",
     description: (
       <div><p>
       Meet great musicians and experience the music in the harbor of the
@@ -168,7 +168,7 @@ export const frenchEntries = {
   entry6: {
     key: "entry6",
     title: "Pensez à la mobilité écologique!",
-    image: "/images/ecomobility.png",
+    image: "/images/ecomobility",
     description: (
       <div>
         <p>
@@ -185,7 +185,7 @@ export const frenchEntries = {
   entry5: {
     key: "entry5",
     title: "Sponsors",
-    image: "/images/hot_club_de_norvège_poster.webp",
+    image: "/images/hot_club_de_norvège_poster",
     description: (
       <div>
         <p>
