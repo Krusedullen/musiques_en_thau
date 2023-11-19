@@ -351,7 +351,7 @@ export const customPoster = {
           alt="christmas_concert"
         ></img>
         <h1 className="info-post__header">
-          December 10th 2023, MARSEILLAN: "CHRISTMAS CONCERT
+          December 10th 2023, MARSEILLAN: CHRISTMAS CONCERT
         </h1>
         <div className="info-post__content">
           <p>Our Christmas concert this year features Scandinavian vocalist Elisabeth Melander accompanied on piano by the talented Cedric Chauveaux, with a special guest.
