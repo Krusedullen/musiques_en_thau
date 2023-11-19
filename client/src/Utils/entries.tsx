@@ -184,7 +184,7 @@ export const frenchEntries = {
 
   entry5: {
     key: "entry5",
-    title: "Sponsors",
+    title: "30 JUIN, MARSEILLAN : FESTIVAL DE JAZZ 'MUSIQUES EN THAU' !",
     image: "/images/hot_club_de_norvège_poster",
     description: (
       <div>
