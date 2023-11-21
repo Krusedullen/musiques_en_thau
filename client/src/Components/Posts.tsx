@@ -42,7 +42,8 @@ export default function Posts(props: { language: string }) {
       {topPoster(language)}
       {buildEntries(language)}
       <Video />
-      <SponsorCard language={language} />
+      {//<SponsorCard language={language} />
+      }
     </div>
   );
 }
