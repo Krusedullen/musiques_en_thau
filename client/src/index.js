@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./Pages/App";
 import ErrorPage from "./Components/ErrorPage";
 import MainPage from "./Components/MainPage";
+import NorthSouth from './Components/NorthSouth';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
       {
         path: "",
         element: <MainPage />,
+      },
+      {
+        path: "northtosouth",
+        element: <NorthSouth />,
       },
     ],
   },

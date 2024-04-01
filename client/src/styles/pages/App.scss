@@ -1,6 +1,14 @@
 .App {
   height: 100vh;
   width: 100%;
+  
+  
+
+  .contained-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
   link {
     color: $color-accent-dark;
   }
@@ -18,7 +26,14 @@
   }
   .desktop-only{
     display: none;
-} 
+  } 
+
+  .centered{
+    text-align: center;
+    
+  }
+
+
   @media (min-width: 640px) {
     .main-content {
       margin: 0 auto;
