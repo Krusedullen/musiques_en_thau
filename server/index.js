@@ -28,7 +28,7 @@ app.use(nocache());
 app.set("etag", false);
 
 // All remaining requests return the React app, so it can handle routing.
-app.get("/", function (req, res) {
+app.get("/*", function (req, res) {
   //response
   res.sendFile(path.resolve(__dirname, "../client/build", "index.html"));
 });
