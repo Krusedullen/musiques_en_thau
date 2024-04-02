@@ -1,9 +1,9 @@
 export const images = {
-  image0: {
+  /* image0: {
     key: "0",
     src: "/images/hot_club_de_norvège_poster.webp",
     imgText: "hot club poster",
-  },
+  }, */
   image1: {
     key: "1",
     src: "/images/melander_singing.webp",

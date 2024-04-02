@@ -11,7 +11,14 @@ export default function MainPage() {
     <div className="main-content">
       
       <div className="main-content-inner">
-      <ArtistReel language={language} />
+      {//<ArtistReel language={language} />
+      }
+      {/*midlertidig poster på toppen av siden.*/}
+      <img className="centered contained-img"
+      src={process.env.PUBLIC_URL + "../Images/northsouth_info_poster.png"}
+      alt="sponsor poster"
+    ></img>
+
         <Posts language={language} />
         <ImageSlideshow />
       </div>
