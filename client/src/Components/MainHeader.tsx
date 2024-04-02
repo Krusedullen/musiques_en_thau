@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../Images/Msign.png";
-import { musiquesFacebook} from "../Utils/Utils";
+import { musiquesFacebook, northSouthFacebook} from "../Utils/Utils";
 import { LANGUAGES } from "../Utils/constants";
 
 export default function Header(props: { changeLanguage: (arg0: string) => void; }) {
@@ -19,6 +19,15 @@ export default function Header(props: { changeLanguage: (arg0: string) => void; 
       </a>
 
       <nav className="menu">
+        <a href={northSouthFacebook}>
+        <picture className="nav-icon">
+            <img
+              src={process.env.PUBLIC_URL + "/images/northsouth_icon_round.png"}
+              alt="facebook"
+              className="nav-icon"
+            />
+        </picture>
+        </a>
         <a href={musiquesFacebook}>
           <picture className="nav-icon">
             <source

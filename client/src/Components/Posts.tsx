@@ -1,20 +1,14 @@
 import React from "react";
 import Video from "./../Components/Video";
-import { entries, customPoster, frenchEntries } from "../Utils/entries";
+import { entries, customPoster, frenchEntries,} from "../Utils/entries";
 import InfoPost from "./InfoPost";
-import SponsorCard from "./SponsorCard";
+//import SponsorCard from "./SponsorCard";
 
 export default function Posts(props: { language: string }) {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const language: string = props.language;
 
-  const topPoster = (lang: string) => {
-    let collection = customPoster.fr.content;
-    if (lang === "en") {
-      collection = customPoster.en.content;
-    } else collection = customPoster.fr.content;
-    return collection;
-  };
+  
   //bygger entries fra en samling engelsk/fransk
   const buildEntries = (lang: string) => {
     let collection = frenchEntries;
@@ -39,14 +33,25 @@ export default function Posts(props: { language: string }) {
 
   return (
     <div className="posts">
-      {topPoster(language)}
-      {buildEntries(language)}
+      {//topPoster(language)
+      }
+      {//buildEntries(language)
+      }
       <Video />
       {//<SponsorCard language={language} />
       }
     </div>
   );
 }
+/*
+const topPoster = (lang: string) => {
+    let collection = customPoster.fr.content;
+    if (lang === "en") {
+      collection = customPoster.en.content;
+    } else collection = customPoster.fr.content;
+    return collection;
+  };
+  */
 
 /*
 den endelige koden looper gjennom og presenterer post-komponenter. Skal hente info fra database:

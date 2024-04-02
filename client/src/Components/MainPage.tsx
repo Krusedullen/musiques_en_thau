@@ -9,8 +9,9 @@ export default function MainPage() {
 
   return (
     <div className="main-content">
-      <ArtistReel language={language} />
+      
       <div className="main-content-inner">
+      <ArtistReel language={language} />
         <Posts language={language} />
         <ImageSlideshow />
       </div>

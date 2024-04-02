@@ -9,9 +9,12 @@ export default function NorthSouth() {
       <div className="main-content">
         
         <div className="main-content-inner">
-        <h1 className="centered">Festival content coming soon</h1>
         <img className="centered contained-img"
-          src={process.env.PUBLIC_URL + "../Images/northsouth-poster.jpg"}
+          src={process.env.PUBLIC_URL + "../Images/banner.png"}
+          alt="sponsor poster"
+        ></img>
+        <img className="centered contained-img"
+          src={process.env.PUBLIC_URL + "../Images/northsouth_info_poster.png"}
           alt="sponsor poster"
         ></img>
         </div>
