@@ -14,10 +14,11 @@ export default function MainPage() {
       {//<ArtistReel language={language} />
       }
       {/*midlertidig poster på toppen av siden.*/}
-      <img className="centered contained-img"
+      <a href="/northtosouth"><img className="centered contained-img"
       src={process.env.PUBLIC_URL + "../Images/northsouth_info_poster.png"}
       alt="sponsor poster"
-    ></img>
+    ></img></a>
+      
 
         <Posts language={language} />
         <ImageSlideshow />

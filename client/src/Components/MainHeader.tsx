@@ -14,7 +14,7 @@ export default function Header(props: { changeLanguage: (arg0: string) => void; 
 
   return (
     <header className="main-header">
-      <a href="https://musiquesenthau.com/" className="logo-link">
+      <a href="/" className="logo-link">
         <img className="logo" src={logo} alt="logo" />
       </a>
 
