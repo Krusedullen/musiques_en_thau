@@ -28,10 +28,17 @@ app.use(nocache());
 app.set("etag", false);
 
 // All remaining requests return the React app, so it can handle routing.
-app.get("/*", function (req, res) {
+/* app.get("/", function (req, res) {
   //response
   res.sendFile(path.resolve(__dirname, "../client/build", "index.html"));
-});
+}); */
+app.get('/*', function(req, res) {
+  res.sendFile(path.join(__dirname, '../client/build/index.html'), function(err) {
+    if (err) {
+      res.status(500).send(err)S
+    }
+  })
+})
 
 //Priority serve any static files. This has its own cache system.
 app.use(
