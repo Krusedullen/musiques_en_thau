@@ -4,6 +4,8 @@ export const figmaSkisse =
 export const musiquesFacebook =
   "https://www.facebook.com/groups/3297190587162445";
 
+export const northSouthFacebook = "https://www.facebook.com/profile.php?id=61553590554807"
+
 export const translateFrench =
   "https://musiquesenthau-com.translate.goog/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=en-US&_x_tr_pto=wapp";
 
