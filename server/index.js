@@ -27,22 +27,6 @@ app.all("*", function (req, res, next) {
 app.use(nocache());
 app.set("etag", false);
 
-//Priority serve any static files. This has its own cache system.
-app.use(express.static(path.join(__dirname, '../client/build', {
-  maxage: "5000", // uses milliseconds per docs
-})));
-// All remaining requests return the React app, so it can handle routing.
--app.get('/', function (req, res) {
-+app.get('/*', function (req, res) {
-   res.sendFile(path.join(__dirname, '../client/build', 'index.html'));
- });
-});
-
-
-
-
-
-/* old syntax
 // All remaining requests return the React app, so it can handle routing.
 app.get("/", function (req, res) {
   //response
@@ -56,7 +40,7 @@ app.use(
     maxage: "5000", // uses milliseconds per docs
   })
 );
-*/
+
 //listener on port
 app.listen(port, () => console.log(`Listening on port ${port}`));
 
