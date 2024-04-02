@@ -16,7 +16,7 @@ export default function MainPage() {
       {/*midlertidig poster på toppen av siden.*/}
       <a href="/northtosouth"><img className="centered contained-img"
       src={process.env.PUBLIC_URL + "../Images/northsouth_info_poster.png"}
-      alt="sponsor poster"
+      alt="festival info poster"
     ></img></a>
       
 
