@@ -1,6 +1,7 @@
 const express = require("express");
 const path = require("path");
 const nocache = require("nocache");
+//const {StaticRouter,} = require('react-router-dom/server');
 const port = process.env.PORT || 5000;
 
 /*
@@ -33,6 +34,10 @@ app.get("/", function (req, res) {
   res.sendFile(path.resolve(__dirname, "../client/build", "index.html"));
 });
 
+app.get("*", function (req, res) {
+  //response
+  res.sendFile(path.resolve(__dirname, "../client/build", "index.html"));
+});
 
 //Priority serve any static files. This has its own cache system.
 app.use(
@@ -44,11 +49,4 @@ app.use(
 //listener on port
 app.listen(port, () => console.log(`Listening on port ${port}`));
 
-//http-header with cache control:  res.set("Cache-Control", "no-store") eller res.append()
-/*
-//cache control to disable cache.
-app.use((req, res, next) => {
-  res.set("Cache-Control", "no-store");
-  next();
-});
-*/
+
