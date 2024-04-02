@@ -17,6 +17,12 @@ export default function NorthSouth() {
           src={process.env.PUBLIC_URL + "../Images/northsouth_info_poster.png"}
           alt="sponsor poster"
         ></img>
+        <img className="centered contained-img"
+          src={process.env.PUBLIC_URL + "../Images/ecomobility.webp"}
+          alt="sponsor poster"
+        ></img>
+
+
         </div>
       </div>
     );
