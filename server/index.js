@@ -27,8 +27,11 @@ app.all("*", function (req, res, next) {
 app.use(nocache());
 app.set("etag", false);
 
-
-app.use(express.static(path.join(__dirname, '../client/build')));
+//Priority serve any static files. This has its own cache system.
+app.use(express.static(path.join(__dirname, '../client/build', {
+  maxage: "5000", // uses milliseconds per docs
+})));
+// All remaining requests return the React app, so it can handle routing.
 -app.get('/', function (req, res) {
 +app.get('/*', function (req, res) {
    res.sendFile(path.join(__dirname, '../client/build', 'index.html'));
@@ -39,7 +42,7 @@ app.use(express.static(path.join(__dirname, '../client/build')));
 
 
 
-/*
+/* old syntax
 // All remaining requests return the React app, so it can handle routing.
 app.get("/", function (req, res) {
   //response
