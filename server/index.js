@@ -27,6 +27,19 @@ app.all("*", function (req, res, next) {
 app.use(nocache());
 app.set("etag", false);
 
+
+app.use(express.static(path.join(__dirname, '../client/build')));
+-app.get('/', function (req, res) {
++app.get('/*', function (req, res) {
+   res.sendFile(path.join(__dirname, '../client/build', 'index.html'));
+ });
+});
+
+
+
+
+
+/*
 // All remaining requests return the React app, so it can handle routing.
 app.get("/", function (req, res) {
   //response
@@ -40,7 +53,7 @@ app.use(
     maxage: "5000", // uses milliseconds per docs
   })
 );
-
+*/
 //listener on port
 app.listen(port, () => console.log(`Listening on port ${port}`));
 
