@@ -1,27 +1,21 @@
 import React from "react";
 import ImageSlideshow from "./ImageSlideshow";
-import ArtistReel from "./ArtistReel";
+//import ArtistReel from "./ArtistReel";
 import Posts from "./Posts";
 import { useOutletContext } from "react-router-dom";
+import TempPosterReel from "./TempPosterReel";
 
 export default function MainPage() {
   const language: string = useOutletContext();
 
   return (
     <div className="main-content">
-      
-      <div className="main-content-inner">
-      {//<ArtistReel language={language} />
-      }
-      {/*midlertidig poster på toppen av siden.*/}
-      <a href="/northtosouth"><img className="centered contained-img"
-      src={process.env.PUBLIC_URL + "/images/northsouth_info_poster.png"}
-      alt="festival info poster"
-    ></img></a>
-      
-
+      <div className="main-content-inner">     
+        <TempPosterReel language={language} />
         <Posts language={language} />
-        <ImageSlideshow />
+        {
+          //<ImageSlideshow />
+        }
       </div>
     </div>
   );
