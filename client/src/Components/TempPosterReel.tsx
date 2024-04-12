@@ -20,6 +20,11 @@ const frenchPosters = (
     <img className="centered contained-img"
     src={process.env.PUBLIC_URL + "/images/programFr.png"}
     alt="program"
+    ></img> 
+    
+    <img className="centered contained-img"
+      src={process.env.PUBLIC_URL + "/images/a_propos.png"}
+      alt="about poster"
     ></img>
 
     <img className="centered contained-img"
@@ -43,9 +48,16 @@ const englishPosters = (
     ></img> 
 
     <img className="centered contained-img"
+      src={process.env.PUBLIC_URL + "/images/about.png"}
+      alt="about poster"
+    ></img>
+
+    <img className="centered contained-img"
       src={process.env.PUBLIC_URL + "/images/northsouth_info_poster.png"}
       alt="festival info poster"
     ></img>
+
+    
 
     </>
     
