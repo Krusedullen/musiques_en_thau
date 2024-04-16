@@ -1,4 +1,5 @@
 import React from "react";
+import { northSouthFacebook } from "../Utils/Utils";
 
 
 
@@ -12,7 +13,7 @@ export default function TempPosterReel(props: { language: string }){
 
 const frenchPosters = (
     <>
-        <a href="/northtosouth"><img className="centered contained-img"
+        <a href={northSouthFacebook}><img className="centered contained-img"
       src={process.env.PUBLIC_URL + "/images/bannerFr.png"}
       alt="festival banner"
     ></img></a>
@@ -37,7 +38,7 @@ const frenchPosters = (
 
 const englishPosters = (
     <>
-        <a href="/northtosouth"><img className="centered contained-img"
+        <a href={northSouthFacebook}><img className="centered contained-img"
       src={process.env.PUBLIC_URL + "/images/bannerEn.png"}
       alt="festival banner"
     ></img></a>
