@@ -15,7 +15,7 @@ export default function Header(props: { changeLanguage: (arg0: string) => void; 
   return (
     <header className="main-header">
       <a href="/" className="logo-link">
-        <img className="logo" src={logo} alt="logo" />
+        <img className="logo" src={logo} alt="Musiques en Thau home link" />
       </a>
 
       <nav className="menu">
@@ -23,7 +23,7 @@ export default function Header(props: { changeLanguage: (arg0: string) => void; 
         <picture className="nav-icon">
             <img
               src={process.env.PUBLIC_URL + "/images/northsouth_icon_round.png"}
-              alt="facebook"
+              alt="North to South facebook link"
               className="nav-icon"
             />
         </picture>
@@ -38,7 +38,7 @@ export default function Header(props: { changeLanguage: (arg0: string) => void; 
             />
             <img
               src={process.env.PUBLIC_URL + "/images/facebook_logo_icon.png"}
-              alt="facebook"
+              alt="Musiques en Thau facebook link"
               className="nav-icon"
             />
           </picture>
