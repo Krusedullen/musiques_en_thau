@@ -3,8 +3,9 @@
 
 //Styles
 @import "./App", "../layout/ArtistReel", "../layout/MainHeader",
-  "../layout/ImageSlideshow", "../layout/Posts", "../layout/Video",
-  "../layout/EmbededMap", "../layout/SponsorCard","../layout/Card";
+"../layout/ImageSlideshow", "../layout/Posts", "../layout/Video",
+"../layout/EmbededMap", "../layout/SponsorCard","../layout/Card", "../layout/MainFooter";
+
 
   
 
@@ -18,7 +19,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: $color-grey-mediumLight;
+  background-color: $color-teal-grey-light;
 }
 .marked-text {
   background-color: yellow;
