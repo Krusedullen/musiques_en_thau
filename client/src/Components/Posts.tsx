@@ -1,6 +1,6 @@
 import React from "react";
 import Video from "./../Components/Video";
-import { entries, customPoster, frenchEntries,} from "../Utils/entries";
+import { entries, frenchEntries,} from "../Utils/entries";
 import InfoPost from "./InfoPost";
 //import SponsorCard from "./SponsorCard";
 
@@ -35,7 +35,7 @@ export default function Posts(props: { language: string }) {
     <div className="posts">
       {//topPoster(language)
       }
-      {//buildEntries(language)
+      {buildEntries(language)
       }
       <Video />
       {//<SponsorCard language={language} />
