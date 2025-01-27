@@ -1,4 +1,4 @@
-export const artists = {
+export const artistsEnglish = {
   person1: {
     id: "12345",
     navn: "Elisabeth Melander",

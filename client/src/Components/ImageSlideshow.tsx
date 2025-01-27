@@ -1,7 +1,7 @@
 
 import React, { MouseEventHandler, useState } from "react";
 import { images } from "../Utils/slideshow";
-import { LeftArrow, RightArrow } from "./Icons";
+import { LeftArrow, RightArrow } from "../Utils/Icons";
 
 export default function MediaTab(): JSX.Element {
   const [imageIndex, setImageIndex] = useState(0);

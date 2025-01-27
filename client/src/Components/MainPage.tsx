@@ -12,13 +12,14 @@ export default function MainPage() {
   return (
     <div className="main-content">
       <div className="main-content-inner">
+      
         <Video/>     
         <TempPosterReel language={language} />
-        
         
         {
           //<Posts language={language} />
           //<ImageSlideshow />
+          //<ArtistReel language={language}/>
         }
       </div>
     </div>
