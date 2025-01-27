@@ -12,7 +12,7 @@ export default function NorthSouth() {
         <div className="main-content-inner">
         <TempPosterReel language={language} />
         <img className="centered contained-img"
-          src={process.env.PUBLIC_URL + "../Images/ecomobility.webp"}
+          src={process.env.PUBLIC_URL + "../images/ecomobility.webp"}
           alt="sponsor poster"
         ></img>
 
