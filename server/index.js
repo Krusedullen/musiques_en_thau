@@ -34,6 +34,16 @@ app.get("/", function (req, res) {
   res.sendFile(path.resolve(__dirname, "../client/build", "index.html"));
 });
 
+app.get("/northtosouth", function (req, res) {
+  //response
+  res.sendFile(path.resolve(__dirname, "../client/build", "index.html"));
+});
+
+app.get("/error", function (req, res) {
+  //response
+  res.sendFile(path.resolve(__dirname, "../client/build", "index.html"));
+});
+
 //Priority serve any static files. This has its own cache system.
 app.use(
   express.static(path.resolve(__dirname, "../client/build"), {
