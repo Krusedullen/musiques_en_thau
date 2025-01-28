@@ -3,11 +3,21 @@
     <url>
         <loc>https://musiquesenthau.com</loc>
         <changefreq>daily</changefreq>
-        <lastmod>2023-06-22</lastmod>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://musiquesenthau.com/</loc>
+        <changefreq>weekly</changefreq>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://musiquesenthau.com/northtosouth</loc>
+        <changefreq>weekly</changefreq>
+        <lastmod>2025-01-01</lastmod>
     </url>
     <url>
         <loc>https://musiquesenthau.com/error</loc>
         <changefreq>weekly</changefreq>
-        <lastmod>2023-06-22</lastmod>
+        <lastmod>2025-01-01</lastmod>
     </url>
 </urlset> 
