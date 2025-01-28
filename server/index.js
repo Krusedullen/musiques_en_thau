@@ -16,7 +16,7 @@ const app = express();
 //ENABLE CACHE-CONTROL HEADER TO BE EXPOSED FOR TROUBLE SHOOTING IN DEV TOOLS
 //should be disabled later
 app.all("*", function (req, res, next) {
-  res.header("Access-Control-Expose-Headers", "*");
+  //res.header("Access-Control-Expose-Headers", "*");
   res.header("Access-Control-Allow-Headers", "*");
   res.header(
     "Content-Security-Policy",
@@ -28,18 +28,10 @@ app.all("*", function (req, res, next) {
 app.use(nocache());
 app.set("etag", false);
 
-// All remaining requests return the React app, so it can handle routing.
-app.get("/", function (req, res) {
-  //response
-  res.sendFile(path.resolve(__dirname, "../client/build", "index.html"));
-});
-
-app.get("/northtosouth", function (req, res) {
-  //response
-  res.sendFile(path.resolve(__dirname, "../client/build", "index.html"));
-});
-
-app.get("/error", function (req, res) {
+// All requests return the React app, these paths also exist in the client index.js.
+// :any is a parameter that can take any value you request in the URL. 
+// The site returns an error page if the page is not found.
+app.get("/:any", function (req, res) {
   //response
   res.sendFile(path.resolve(__dirname, "../client/build", "index.html"));
 });

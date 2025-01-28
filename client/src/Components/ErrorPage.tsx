@@ -15,6 +15,10 @@ export default function ErrorPage() {
         <p>Sorry, an unexpected error has occurred.</p>
         <p>
           <i>
+            {(error as { status?: string })?.status||
+              (error as Error)?.message}{(error)?": " : ""}
+          </i>
+          <i> 
             {(error as { statusText?: string })?.statusText ||
               (error as Error)?.message}
           </i>
